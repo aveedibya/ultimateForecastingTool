@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 from matplotlib.pyplot import figure
 from matplotlib import pyplot as plt
 plt.figure(figsize=(1,1))
-
+#----
 figure(num=None, figsize=(8, 6), dpi=80, facecolor='w', edgecolor='k')
 fig = matplotlib.pyplot.gcf()
 fig.set_size_inches(18.5, 10.5, forward=True)
