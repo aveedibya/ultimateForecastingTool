@@ -16,10 +16,6 @@ itsdangerous==0.24
 Jinja2==2.10
 jsonschema==2.6.0
 jupyter-core==4.4.0
-Kivy==1.10.1
-Kivy-Garden==0.1.4
-kivy.deps.glew==0.1.10
-kivy.deps.sdl2==0.1.18
 MarkupSafe==1.0
 nbformat==4.4.0
 Pillow==5.2.0
