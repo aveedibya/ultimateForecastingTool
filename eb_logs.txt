@@ -3,48 +3,6 @@ Retrieving logs...
 -------------------------------------
 /var/log/httpd/error_log
 -------------------------------------
-[Fri Aug 24 10:20:16.793346 2018] [:error] [pid 5349] [remote 172.31.7.201:240] Traceback (most recent call last):
-[Fri Aug 24 10:20:16.793366 2018] [:error] [pid 5349] [remote 172.31.7.201:240]   File "/opt/python/current/app/application.py", line 10, in <module>
-[Fri Aug 24 10:20:16.793369 2018] [:error] [pid 5349] [remote 172.31.7.201:240]     import dash_table_experiments as dte
-[Fri Aug 24 10:20:16.793383 2018] [:error] [pid 5349] [remote 172.31.7.201:240] ModuleNotFoundError: No module named 'dash_table_experiments'
-[Fri Aug 24 10:23:12.042030 2018] [:error] [pid 5349] [remote 172.31.32.199:236] mod_wsgi (pid=5349): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
-[Fri Aug 24 10:23:12.042083 2018] [:error] [pid 5349] [remote 172.31.32.199:236] mod_wsgi (pid=5349): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
-[Fri Aug 24 10:23:12.042156 2018] [:error] [pid 5349] [remote 172.31.32.199:236] Traceback (most recent call last):
-[Fri Aug 24 10:23:12.042176 2018] [:error] [pid 5349] [remote 172.31.32.199:236]   File "/opt/python/current/app/application.py", line 10, in <module>
-[Fri Aug 24 10:23:12.042180 2018] [:error] [pid 5349] [remote 172.31.32.199:236]     import dash_table_experiments as dte
-[Fri Aug 24 10:23:12.042194 2018] [:error] [pid 5349] [remote 172.31.32.199:236] ModuleNotFoundError: No module named 'dash_table_experiments'
-[Fri Aug 24 11:44:12.588144 2018] [:error] [pid 5349] [remote 172.31.32.199:2800] mod_wsgi (pid=5349): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
-[Fri Aug 24 11:44:12.588207 2018] [:error] [pid 5349] [remote 172.31.32.199:2800] mod_wsgi (pid=5349): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
-[Fri Aug 24 11:44:12.588279 2018] [:error] [pid 5349] [remote 172.31.32.199:2800] Traceback (most recent call last):
-[Fri Aug 24 11:44:12.588299 2018] [:error] [pid 5349] [remote 172.31.32.199:2800]   File "/opt/python/current/app/application.py", line 10, in <module>
-[Fri Aug 24 11:44:12.588303 2018] [:error] [pid 5349] [remote 172.31.32.199:2800]     import dash_table_experiments as dte
-[Fri Aug 24 11:44:12.588388 2018] [:error] [pid 5349] [remote 172.31.32.199:2800] ModuleNotFoundError: No module named 'dash_table_experiments'
-[Fri Aug 24 12:09:13.652777 2018] [:error] [pid 5349] [remote 172.31.7.201:240] mod_wsgi (pid=5349): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
-[Fri Aug 24 12:09:13.652831 2018] [:error] [pid 5349] [remote 172.31.7.201:240] mod_wsgi (pid=5349): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
-[Fri Aug 24 12:09:13.652910 2018] [:error] [pid 5349] [remote 172.31.7.201:240] Traceback (most recent call last):
-[Fri Aug 24 12:09:13.652932 2018] [:error] [pid 5349] [remote 172.31.7.201:240]   File "/opt/python/current/app/application.py", line 10, in <module>
-[Fri Aug 24 12:09:13.652937 2018] [:error] [pid 5349] [remote 172.31.7.201:240]     import dash_table_experiments as dte
-[Fri Aug 24 12:09:13.652951 2018] [:error] [pid 5349] [remote 172.31.7.201:240] ModuleNotFoundError: No module named 'dash_table_experiments'
-[Fri Aug 24 12:13:01.199054 2018] [:error] [pid 5349] [remote 172.31.7.201:240] mod_wsgi (pid=5349): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
-[Fri Aug 24 12:13:01.199109 2018] [:error] [pid 5349] [remote 172.31.7.201:240] mod_wsgi (pid=5349): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
-[Fri Aug 24 12:13:01.199186 2018] [:error] [pid 5349] [remote 172.31.7.201:240] Traceback (most recent call last):
-[Fri Aug 24 12:13:01.199206 2018] [:error] [pid 5349] [remote 172.31.7.201:240]   File "/opt/python/current/app/application.py", line 10, in <module>
-[Fri Aug 24 12:13:01.199210 2018] [:error] [pid 5349] [remote 172.31.7.201:240]     import dash_table_experiments as dte
-[Fri Aug 24 12:13:01.199234 2018] [:error] [pid 5349] [remote 172.31.7.201:240] ModuleNotFoundError: No module named 'dash_table_experiments'
-[Fri Aug 24 12:51:48.555987 2018] [:error] [pid 5349] [remote 172.31.7.201:240] mod_wsgi (pid=5349): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
-[Fri Aug 24 12:51:48.556037 2018] [:error] [pid 5349] [remote 172.31.7.201:240] mod_wsgi (pid=5349): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
-[Fri Aug 24 12:51:48.556123 2018] [:error] [pid 5349] [remote 172.31.7.201:240] Traceback (most recent call last):
-[Fri Aug 24 12:51:48.556149 2018] [:error] [pid 5349] [remote 172.31.7.201:240]   File "/opt/python/current/app/application.py", line 10, in <module>
-[Fri Aug 24 12:51:48.556153 2018] [:error] [pid 5349] [remote 172.31.7.201:240]     import dash_table_experiments as dte
-[Fri Aug 24 12:51:48.556168 2018] [:error] [pid 5349] [remote 172.31.7.201:240] ModuleNotFoundError: No module named 'dash_table_experiments'
-[Fri Aug 24 13:25:03.584016 2018] [:error] [pid 5349] [remote 172.31.7.201:236] mod_wsgi (pid=5349): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
-[Fri Aug 24 13:25:03.584067 2018] [:error] [pid 5349] [remote 172.31.7.201:236] mod_wsgi (pid=5349): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
-[Fri Aug 24 13:25:03.584137 2018] [:error] [pid 5349] [remote 172.31.7.201:236] Traceback (most recent call last):
-[Fri Aug 24 13:25:03.584156 2018] [:error] [pid 5349] [remote 172.31.7.201:236]   File "/opt/python/current/app/application.py", line 10, in <module>
-[Fri Aug 24 13:25:03.584159 2018] [:error] [pid 5349] [remote 172.31.7.201:236]     import dash_table_experiments as dte
-[Fri Aug 24 13:25:03.584174 2018] [:error] [pid 5349] [remote 172.31.7.201:236] ModuleNotFoundError: No module named 'dash_table_experiments'
-[Fri Aug 24 14:09:03.630943 2018] [:error] [pid 5349] [remote 172.31.7.201:2800] mod_wsgi (pid=5349): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
-[Fri Aug 24 14:09:03.630994 2018] [:error] [pid 5349] [remote 172.31.7.201:2800] mod_wsgi (pid=5349): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
 [Fri Aug 24 14:09:03.631077 2018] [:error] [pid 5349] [remote 172.31.7.201:2800] Traceback (most recent call last):
 [Fri Aug 24 14:09:03.631096 2018] [:error] [pid 5349] [remote 172.31.7.201:2800]   File "/opt/python/current/app/application.py", line 10, in <module>
 [Fri Aug 24 14:09:03.631100 2018] [:error] [pid 5349] [remote 172.31.7.201:2800]     import dash_table_experiments as dte
@@ -103,6 +61,48 @@ Retrieving logs...
 [Fri Aug 24 17:56:42.642837 2018] [:error] [pid 5349] [remote 172.31.32.199:240]   File "/opt/python/current/app/application.py", line 10, in <module>
 [Fri Aug 24 17:56:42.642841 2018] [:error] [pid 5349] [remote 172.31.32.199:240]     import dash_table_experiments as dte
 [Fri Aug 24 17:56:42.642854 2018] [:error] [pid 5349] [remote 172.31.32.199:240] ModuleNotFoundError: No module named 'dash_table_experiments'
+[Fri Aug 24 18:36:43.877497 2018] [mpm_prefork:notice] [pid 5344] AH00169: caught SIGTERM, shutting down
+[Fri Aug 24 18:36:44.937543 2018] [suexec:notice] [pid 3577] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Fri Aug 24 18:36:44.951887 2018] [so:warn] [pid 3577] AH01574: module wsgi_module is already loaded, skipping
+[Fri Aug 24 18:36:44.953678 2018] [http2:warn] [pid 3577] AH10034: The mpm module (prefork.c) is not supported by mod_http2. The mpm determines how things are processed in your server. HTTP/2 has more demands in this regard and the currently selected mpm will just not do. This is an advisory warning. Your server will continue to work, but the HTTP/2 protocol will be inactive.
+[Fri Aug 24 18:36:44.953690 2018] [http2:warn] [pid 3577] AH02951: mod_ssl does not seem to be enabled
+[Fri Aug 24 18:36:44.954130 2018] [lbmethod_heartbeat:notice] [pid 3577] AH02282: No slotmem from mod_heartmonitor
+[Fri Aug 24 18:36:44.954179 2018] [:warn] [pid 3577] mod_wsgi: Compiled for Python/3.6.2.
+[Fri Aug 24 18:36:44.954183 2018] [:warn] [pid 3577] mod_wsgi: Runtime using Python/3.6.5.
+[Fri Aug 24 18:36:44.956259 2018] [mpm_prefork:notice] [pid 3577] AH00163: Apache/2.4.33 (Amazon) mod_wsgi/3.5 Python/3.6.5 configured -- resuming normal operations
+[Fri Aug 24 18:36:44.956280 2018] [core:notice] [pid 3577] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Aug 24 18:36:47.716186 2018] [:error] [pid 3582] [remote 127.0.0.1:0] mod_wsgi (pid=3582): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Fri Aug 24 18:36:47.716223 2018] [:error] [pid 3582] [remote 127.0.0.1:0] mod_wsgi (pid=3582): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Fri Aug 24 18:36:47.716579 2018] [:error] [pid 3582] [remote 127.0.0.1:0] Traceback (most recent call last):
+[Fri Aug 24 18:36:47.716607 2018] [:error] [pid 3582] [remote 127.0.0.1:0]   File "/opt/python/current/app/application.py", line 11, in <module>
+[Fri Aug 24 18:36:47.716612 2018] [:error] [pid 3582] [remote 127.0.0.1:0]     from parse_contents import parse_contents, parse_contents_to_df
+[Fri Aug 24 18:36:47.716621 2018] [:error] [pid 3582] [remote 127.0.0.1:0]   File "/opt/python/current/app/parse_contents.py", line 13, in <module>
+[Fri Aug 24 18:36:47.716625 2018] [:error] [pid 3582] [remote 127.0.0.1:0]     import dash
+[Fri Aug 24 18:36:47.716639 2018] [:error] [pid 3582] [remote 127.0.0.1:0] ModuleNotFoundError: No module named 'dash'
+[Fri Aug 24 18:36:48.721930 2018] [:error] [pid 3582] [remote 127.0.0.1:240] mod_wsgi (pid=3582): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Fri Aug 24 18:36:48.722074 2018] [:error] [pid 3582] [remote 127.0.0.1:240] mod_wsgi (pid=3582): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Fri Aug 24 18:36:48.723822 2018] [:error] [pid 3582] [remote 127.0.0.1:240] Traceback (most recent call last):
+[Fri Aug 24 18:36:48.723850 2018] [:error] [pid 3582] [remote 127.0.0.1:240]   File "/opt/python/current/app/application.py", line 11, in <module>
+[Fri Aug 24 18:36:48.723855 2018] [:error] [pid 3582] [remote 127.0.0.1:240]     from parse_contents import parse_contents, parse_contents_to_df
+[Fri Aug 24 18:36:48.723861 2018] [:error] [pid 3582] [remote 127.0.0.1:240]   File "/opt/python/current/app/parse_contents.py", line 13, in <module>
+[Fri Aug 24 18:36:48.723864 2018] [:error] [pid 3582] [remote 127.0.0.1:240]     import dash
+[Fri Aug 24 18:36:48.723877 2018] [:error] [pid 3582] [remote 127.0.0.1:240] ModuleNotFoundError: No module named 'dash'
+[Fri Aug 24 18:36:49.729159 2018] [:error] [pid 3582] [remote 127.0.0.1:244] mod_wsgi (pid=3582): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Fri Aug 24 18:36:49.729204 2018] [:error] [pid 3582] [remote 127.0.0.1:244] mod_wsgi (pid=3582): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Fri Aug 24 18:36:49.729293 2018] [:error] [pid 3582] [remote 127.0.0.1:244] Traceback (most recent call last):
+[Fri Aug 24 18:36:49.729316 2018] [:error] [pid 3582] [remote 127.0.0.1:244]   File "/opt/python/current/app/application.py", line 11, in <module>
+[Fri Aug 24 18:36:49.729321 2018] [:error] [pid 3582] [remote 127.0.0.1:244]     from parse_contents import parse_contents, parse_contents_to_df
+[Fri Aug 24 18:36:49.729327 2018] [:error] [pid 3582] [remote 127.0.0.1:244]   File "/opt/python/current/app/parse_contents.py", line 13, in <module>
+[Fri Aug 24 18:36:49.729331 2018] [:error] [pid 3582] [remote 127.0.0.1:244]     import dash
+[Fri Aug 24 18:36:49.729344 2018] [:error] [pid 3582] [remote 127.0.0.1:244] ModuleNotFoundError: No module named 'dash'
+[Fri Aug 24 18:36:50.734364 2018] [:error] [pid 3582] [remote 127.0.0.1:244] mod_wsgi (pid=3582): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Fri Aug 24 18:36:50.734410 2018] [:error] [pid 3582] [remote 127.0.0.1:244] mod_wsgi (pid=3582): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Fri Aug 24 18:36:50.734490 2018] [:error] [pid 3582] [remote 127.0.0.1:244] Traceback (most recent call last):
+[Fri Aug 24 18:36:50.734524 2018] [:error] [pid 3582] [remote 127.0.0.1:244]   File "/opt/python/current/app/application.py", line 11, in <module>
+[Fri Aug 24 18:36:50.734528 2018] [:error] [pid 3582] [remote 127.0.0.1:244]     from parse_contents import parse_contents, parse_contents_to_df
+[Fri Aug 24 18:36:50.734534 2018] [:error] [pid 3582] [remote 127.0.0.1:244]   File "/opt/python/current/app/parse_contents.py", line 13, in <module>
+[Fri Aug 24 18:36:50.734537 2018] [:error] [pid 3582] [remote 127.0.0.1:244]     import dash
+[Fri Aug 24 18:36:50.734551 2018] [:error] [pid 3582] [remote 127.0.0.1:244] ModuleNotFoundError: No module named 'dash'
 
 
 
@@ -127,16 +127,15 @@ Retrieving logs...
 2018-08-23 22:03:44,123 INFO stopped: httpd (exit status 0)
 2018-08-23 22:03:45,128 INFO spawned: 'httpd' with pid 5344
 2018-08-23 22:03:46,170 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-24 18:36:43,889 INFO stopped: httpd (exit status 0)
+2018-08-24 18:36:44,894 INFO spawned: 'httpd' with pid 3577
+2018-08-24 18:36:45,937 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 
 
 
 -------------------------------------
 /var/log/httpd/access_log
 -------------------------------------
-172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:00 +0000] "POST /weixiao.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
-172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:00 +0000] "POST /feixiang.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
-172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:00 +0000] "POST /ak47.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
-172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:01 +0000] "POST /xiao.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
 172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:01 +0000] "POST /yao.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
 172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:02 +0000] "POST /defect.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
 172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:02 +0000] "POST /webslee.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
@@ -233,179 +232,127 @@ Retrieving logs...
 172.31.7.201 (201.49.229.176) - - [24/Aug/2018:16:39:31 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
 172.31.7.201 (213.198.132.67) - - [24/Aug/2018:17:13:53 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7"
 172.31.32.199 (36.79.75.195) - - [24/Aug/2018:17:56:42 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+127.0.0.1 (-) - - [24/Aug/2018:18:36:47 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [24/Aug/2018:18:36:48 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [24/Aug/2018:18:36:49 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [24/Aug/2018:18:36:50 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
 
 
 
 -------------------------------------
 /var/log/eb-activity.log
 -------------------------------------
-  Collecting Kivy==1.10.1 (from -r /opt/python/ondeck/app/requirements.txt (line 18))
-    Using cached https://files.pythonhosted.org/packages/7d/8b/89d220b7f96dc2662b81319067f679b4cd73cda66f4aa850db5b6c6cfc7a/Kivy-1.10.1.tar.gz
-      Complete output from command python setup.py egg_info:
-      Using distutils
-      
-      Cython is missing, it's required for compiling kivy !
-      
-      
-      Traceback (most recent call last):
-        File "<string>", line 1, in <module>
-        File "/tmp/pip-build-0x5v6zdq/Kivy/setup.py", line 232, in <module>
-          from Cython.Distutils import build_ext
-      ModuleNotFoundError: No module named 'Cython'
-      
-      ----------------------------------------
-  Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-0x5v6zdq/Kivy/
-  You are using pip version 9.0.1, however version 18.0 is available.
-  You should consider upgrading via the 'pip install --upgrade pip' command.
-  2018-08-24 18:33:06,956 ERROR    Error installing dependencies: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1
-  Traceback (most recent call last):
-    File "/opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py", line 22, in main
-      install_dependencies()
-    File "/opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py", line 18, in install_dependencies
-      check_call('%s install -r %s' % (os.path.join(APP_VIRTUAL_ENV, 'bin', 'pip'), requirements_file), shell=True)
-    File "/usr/lib64/python2.7/subprocess.py", line 186, in check_call
-      raise CalledProcessError(retcode, cmd)
-  CalledProcessError: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1 (ElasticBeanstalk::ExternalInvocationError)
-caused by: Collecting certifi==2018.4.16 (from -r /opt/python/ondeck/app/requirements.txt (line 1))
-    Using cached https://files.pythonhosted.org/packages/7c/e6/92ad559b7192d846975fc916b65f667c7b8c3a32bea7372340bfe9a15fa5/certifi-2018.4.16-py2.py3-none-any.whl
-  Collecting chardet==3.0.4 (from -r /opt/python/ondeck/app/requirements.txt (line 2))
-    Using cached https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl
-  Collecting click==6.7 (from -r /opt/python/ondeck/app/requirements.txt (line 3))
-    Using cached https://files.pythonhosted.org/packages/34/c1/8806f99713ddb993c5366c362b2f908f18269f8d792aff1abfd700775a77/click-6.7-py2.py3-none-any.whl
-  Collecting dash==0.22.0 (from -r /opt/python/ondeck/app/requirements.txt (line 4))
-    Using cached https://files.pythonhosted.org/packages/a5/ee/1c36e4a6f2d412843c7703339f51055f06fe34c1ffbb4c502db16df374ce/dash-0.22.0.tar.gz
-  Collecting dash-core-components==0.26.0 (from -r /opt/python/ondeck/app/requirements.txt (line 5))
-    Using cached https://files.pythonhosted.org/packages/4b/9c/282255ac1ab408cef982c58a2f6d7c58702f1f8f2027e59f52798ebe0dd9/dash_core_components-0.26.0.tar.gz
-  Collecting dash-html-components==0.11.0 (from -r /opt/python/ondeck/app/requirements.txt (line 6))
-    Using cached https://files.pythonhosted.org/packages/cd/7d/9660cc8c763f87b69301100e2f9a9c373b5a14782547b0d80e039cc3e0e3/dash_html_components-0.11.0.tar.gz
-  Collecting dash-renderer==0.13.0 (from -r /opt/python/ondeck/app/requirements.txt (line 7))
-    Using cached https://files.pythonhosted.org/packages/98/12/8176efede4139bc31b076b0e44a0f4cb002ead600ea4fd84e2ac8afd81cc/dash_renderer-0.13.0.tar.gz
-  Collecting decorator==4.3.0 (from -r /opt/python/ondeck/app/requirements.txt (line 8))
-    Using cached https://files.pythonhosted.org/packages/bc/bb/a24838832ba35baf52f32ab1a49b906b5f82fb7c76b2f6a7e35e140bac30/decorator-4.3.0-py2.py3-none-any.whl
-  Collecting docutils==0.14 (from -r /opt/python/ondeck/app/requirements.txt (line 9))
-    Using cached https://files.pythonhosted.org/packages/36/fa/08e9e6e0e3cbd1d362c3bbee8d01d0aedb2155c4ac112b19ef3cae8eed8d/docutils-0.14-py3-none-any.whl
-  Collecting Flask==1.0.2 (from -r /opt/python/ondeck/app/requirements.txt (line 10))
-    Using cached https://files.pythonhosted.org/packages/7f/e7/08578774ed4536d3242b14dacb4696386634607af824ea997202cd0edb4b/Flask-1.0.2-py2.py3-none-any.whl
-  Collecting Flask-Compress==1.4.0 (from -r /opt/python/ondeck/app/requirements.txt (line 11))
-    Using cached https://files.pythonhosted.org/packages/0e/2a/378bd072928f6d92fd8c417d66b00c757dc361c0405a46a0134de6fd323d/Flask-Compress-1.4.0.tar.gz
-  Collecting idna==2.7 (from -r /opt/python/ondeck/app/requirements.txt (line 12))
-    Using cached https://files.pythonhosted.org/packages/4b/2a/0276479a4b3caeb8a8c1af2f8e4355746a97fab05a372e4a2c6a6b876165/idna-2.7-py2.py3-none-any.whl
-  Collecting ipython-genutils==0.2.0 (from -r /opt/python/ondeck/app/requirements.txt (line 13))
-    Using cached https://files.pythonhosted.org/packages/fa/bc/9bd3b5c2b4774d5f33b2d544f1460be9df7df2fe42f352135381c347c69a/ipython_genutils-0.2.0-py2.py3-none-any.whl
-  Collecting itsdangerous==0.24 (from -r /opt/python/ondeck/app/requirements.txt (line 14))
-    Using cached https://files.pythonhosted.org/packages/dc/b4/a60bcdba945c00f6d608d8975131ab3f25b22f2bcfe1dab221165194b2d4/itsdangerous-0.24.tar.gz
-  Collecting Jinja2==2.10 (from -r /opt/python/ondeck/app/requirements.txt (line 15))
-    Using cached https://files.pythonhosted.org/packages/7f/ff/ae64bacdfc95f27a016a7bed8e8686763ba4d277a78ca76f32659220a731/Jinja2-2.10-py2.py3-none-any.whl
-  Collecting jsonschema==2.6.0 (from -r /opt/python/ondeck/app/requirements.txt (line 16))
-    Using cached https://files.pythonhosted.org/packages/77/de/47e35a97b2b05c2fadbec67d44cfcdcd09b8086951b331d82de90d2912da/jsonschema-2.6.0-py2.py3-none-any.whl
-  Collecting jupyter-core==4.4.0 (from -r /opt/python/ondeck/app/requirements.txt (line 17))
-    Using cached https://files.pythonhosted.org/packages/1d/44/065d2d7bae7bebc06f1dd70d23c36da8c50c0f08b4236716743d706762a8/jupyter_core-4.4.0-py2.py3-none-any.whl
-  Collecting Kivy==1.10.1 (from -r /opt/python/ondeck/app/requirements.txt (line 18))
-    Using cached https://files.pythonhosted.org/packages/7d/8b/89d220b7f96dc2662b81319067f679b4cd73cda66f4aa850db5b6c6cfc7a/Kivy-1.10.1.tar.gz
-      Complete output from command python setup.py egg_info:
-      Using distutils
-      
-      Cython is missing, it's required for compiling kivy !
-      
-      
-      Traceback (most recent call last):
-        File "<string>", line 1, in <module>
-        File "/tmp/pip-build-0x5v6zdq/Kivy/setup.py", line 232, in <module>
-          from Cython.Distutils import build_ext
-      ModuleNotFoundError: No module named 'Cython'
-      
-      ----------------------------------------
-  Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-0x5v6zdq/Kivy/
-  You are using pip version 9.0.1, however version 18.0 is available.
-  You should consider upgrading via the 'pip install --upgrade pip' command.
-  2018-08-24 18:33:06,956 ERROR    Error installing dependencies: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1
-  Traceback (most recent call last):
-    File "/opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py", line 22, in main
-      install_dependencies()
-    File "/opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py", line 18, in install_dependencies
-      check_call('%s install -r %s' % (os.path.join(APP_VIRTUAL_ENV, 'bin', 'pip'), requirements_file), shell=True)
-    File "/usr/lib64/python2.7/subprocess.py", line 186, in check_call
-      raise CalledProcessError(retcode, cmd)
-  CalledProcessError: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1 (Executor::NonZeroExitStatus)
-
-
-[2018-08-24T18:33:06.962Z] INFO  [3042]  - [Application update app-862e-180824_133252@15/AppDeployStage0/AppDeployPreHook/03deploy.py] : Activity failed.
-[2018-08-24T18:33:06.962Z] INFO  [3042]  - [Application update app-862e-180824_133252@15/AppDeployStage0/AppDeployPreHook] : Activity failed.
-[2018-08-24T18:33:06.962Z] INFO  [3042]  - [Application update app-862e-180824_133252@15/AppDeployStage0] : Activity failed.
-[2018-08-24T18:33:06.963Z] INFO  [3042]  - [Application update app-862e-180824_133252@15] : Completed activity. Result:
-  Application update - Command CMD-AppDeploy failed
-[2018-08-24T18:33:48.869Z] INFO  [3200]  - [CMD-TailLogs] : Starting activity...
-[2018-08-24T18:33:48.869Z] INFO  [3200]  - [CMD-TailLogs/AddonsBefore] : Starting activity...
-[2018-08-24T18:33:48.869Z] INFO  [3200]  - [CMD-TailLogs/AddonsBefore] : Completed activity.
-[2018-08-24T18:33:48.869Z] INFO  [3200]  - [CMD-TailLogs/TailLogs] : Starting activity...
-[2018-08-24T18:33:48.869Z] INFO  [3200]  - [CMD-TailLogs/TailLogs/TailLogs] : Starting activity...
+[2018-08-24T18:36:39.539Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AddonsBefore] : Starting activity...
+[2018-08-24T18:36:39.539Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AddonsBefore/ConfigCWLAgent] : Starting activity...
+[2018-08-24T18:36:39.539Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AddonsBefore/ConfigCWLAgent/10-config.sh] : Starting activity...
+[2018-08-24T18:36:39.654Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AddonsBefore/ConfigCWLAgent/10-config.sh] : Completed activity. Result:
+  Log streaming option setting is not specified, ignore cloudwatch logs setup.
+  
+  Disabled log streaming.
+[2018-08-24T18:36:39.655Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AddonsBefore/ConfigCWLAgent] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/addons/logstreaming/hooks/config.
+[2018-08-24T18:36:39.655Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AddonsBefore] : Completed activity.
+[2018-08-24T18:36:40.037Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage0] : Starting activity...
+[2018-08-24T18:36:40.037Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage0/DownloadSourceBundle] : Starting activity...
+[2018-08-24T18:36:40.326Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage0/DownloadSourceBundle] : Completed activity. Result:
+  [2018-08-24T18:36:40.138Z] INFO  [3466]  : Application version will be saved to /opt/elasticbeanstalk/deploy/appsource.
+  [2018-08-24T18:36:40.138Z] INFO  [3466]  : Using manifest cache with deployment ID 17 and serial 29.
+  [2018-08-24T18:36:40.138Z] INFO  [3466]  : Attempting to download application source bundle to: '/opt/elasticbeanstalk/deploy/appsource/source_bundle'.
+  [2018-08-24T18:36:40.138Z] INFO  [3466]  : Using computed s3 key.
+  [2018-08-24T18:36:40.251Z] INFO  [3466]  : Downloading from bucket 'elasticbeanstalk-us-west-2-224385755653' with key 'resources/environments/e-fq4pf3gzgg/_runtime/_versions/ultimateforecastingtool/app-84b2-180824_133629' and version '' to '/opt/elasticbeanstalk/deploy/appsource/source_bundle'.
+  [2018-08-24T18:36:40.302Z] INFO  [3466]  : Size: 16705, ETag: "2cd167f946220cabb9252edf9ec2561a", Metadata: {"environmentid"=>"e-fq4pf3gzgg", "requestid"=>"442d43f9-ffbb-4672-86d0-c5060bf84892"}.
+  [2018-08-24T18:36:40.313Z] INFO  [3466]  : Downloaded size: 16705.
+  [2018-08-24T18:36:40.313Z] INFO  [3466]  : Successfully downloaded to '/opt/elasticbeanstalk/deploy/appsource/source_bundle'.
+[2018-08-24T18:36:40.326Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage0/EbExtensionPreBuild] : Starting activity...
+[2018-08-24T18:36:40.713Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage0/EbExtensionPreBuild/Infra-EmbeddedPreBuild] : Starting activity...
+[2018-08-24T18:36:40.713Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage0/EbExtensionPreBuild/Infra-EmbeddedPreBuild] : Completed activity.
+[2018-08-24T18:36:40.728Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage0/EbExtensionPreBuild] : Completed activity.
+[2018-08-24T18:36:40.728Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage0/AppDeployPreHook] : Starting activity...
+[2018-08-24T18:36:40.729Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage0/AppDeployPreHook/01_configure_xray.sh] : Starting activity...
+[2018-08-24T18:36:40.832Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage0/AppDeployPreHook/01_configure_xray.sh] : Completed activity.
+[2018-08-24T18:36:40.832Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage0/AppDeployPreHook/01new.py] : Starting activity...
+[2018-08-24T18:36:41.139Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage0/AppDeployPreHook/01new.py] : Completed activity.
+[2018-08-24T18:36:41.139Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage0/AppDeployPreHook/02unzip.py] : Starting activity...
+[2018-08-24T18:36:41.454Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage0/AppDeployPreHook/02unzip.py] : Completed activity. Result:
+  Archive:  /opt/elasticbeanstalk/deploy/appsource/source_bundle
+  84b2b810f9a7e7026980569dde3bc745c7d0d0e3
+    inflating: /opt/python/ondeck/app/.gitignore  
+     creating: /opt/python/ondeck/app/__pycache__/
+    inflating: /opt/python/ondeck/app/__pycache__/forecast_example.cpython-36.pyc  
+    inflating: /opt/python/ondeck/app/__pycache__/forecast_models.cpython-36.pyc  
+    inflating: /opt/python/ondeck/app/__pycache__/parse_contents.cpython-36.pyc  
+    inflating: /opt/python/ondeck/app/application.py  
+    inflating: /opt/python/ondeck/app/eb_logs.txt  
+    inflating: /opt/python/ondeck/app/forecast_example.py  
+    inflating: /opt/python/ondeck/app/forecast_models.py  
+    inflating: /opt/python/ondeck/app/parse_contents.py  
+[2018-08-24T18:36:41.454Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage0/AppDeployPreHook/03deploy.py] : Starting activity...
+[2018-08-24T18:36:41.672Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage0/AppDeployPreHook/03deploy.py] : Completed activity.
+[2018-08-24T18:36:41.673Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage0/AppDeployPreHook/04configen.py] : Starting activity...
+[2018-08-24T18:36:42.853Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage0/AppDeployPreHook/04configen.py] : Completed activity.
+[2018-08-24T18:36:42.853Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage0/AppDeployPreHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/pre.
+[2018-08-24T18:36:42.853Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage0/EbExtensionPostBuild] : Starting activity...
+[2018-08-24T18:36:43.242Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild] : Starting activity...
+[2018-08-24T18:36:43.242Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild] : Completed activity.
+[2018-08-24T18:36:43.257Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage0/EbExtensionPostBuild] : Completed activity.
+[2018-08-24T18:36:43.257Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage0/InfraCleanEbextension] : Starting activity...
+[2018-08-24T18:36:43.257Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage0/InfraCleanEbextension] : Completed activity. Result:
+  Cleaned ebextensions subdirectories from /opt/python/ondeck/app.
+[2018-08-24T18:36:43.257Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage0] : Completed activity. Result:
+  Application update - Command CMD-AppDeploy stage 0 completed
+[2018-08-24T18:36:43.257Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage1] : Starting activity...
+[2018-08-24T18:36:43.257Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage1/AppDeployEnactHook] : Starting activity...
+[2018-08-24T18:36:43.258Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage1/AppDeployEnactHook/01flip.py] : Starting activity...
+[2018-08-24T18:36:51.742Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage1/AppDeployEnactHook/01flip.py] : Completed activity. Result:
+  httpd: stopped
+  httpd: started
+  httpd                            RUNNING   pid 3577, uptime 0:00:03
+  2018-08-24 18:36:51,736 INFO     Apache is running, but root page is not responding in 3 seconds.
+[2018-08-24T18:36:51.742Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage1/AppDeployEnactHook/01stop_xray.sh] : Starting activity...
+[2018-08-24T18:36:51.852Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage1/AppDeployEnactHook/01stop_xray.sh] : Completed activity. Result:
+  Executing: if ( initctl status xray | grep start ); then initctl stop xray; fi
+  
+[2018-08-24T18:36:51.852Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage1/AppDeployEnactHook/02create_pids_for_monitoring.sh] : Starting activity...
+[2018-08-24T18:36:51.950Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage1/AppDeployEnactHook/02create_pids_for_monitoring.sh] : Completed activity. Result:
+  + chmod 0755 /var/run/httpd
+  + /opt/elasticbeanstalk/bin/healthd-track-pidfile --proxy httpd
+  + /opt/elasticbeanstalk/bin/healthd-track-pidfile --name application --location /opt/python/run/supervisord.pid
+[2018-08-24T18:36:51.950Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage1/AppDeployEnactHook/02start_xray.sh] : Starting activity...
+[2018-08-24T18:36:52.056Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage1/AppDeployEnactHook/02start_xray.sh] : Completed activity.
+[2018-08-24T18:36:52.056Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage1/AppDeployEnactHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/enact.
+[2018-08-24T18:36:52.056Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage1/AppDeployPostHook] : Starting activity...
+[2018-08-24T18:36:52.056Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage1/AppDeployPostHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/post.
+[2018-08-24T18:36:52.056Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AppDeployStage1] : Completed activity. Result:
+  Application version switch - Command CMD-AppDeploy stage 1 completed
+[2018-08-24T18:36:52.056Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AddonsAfter] : Starting activity...
+[2018-08-24T18:36:52.056Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AddonsAfter/ConfigLogRotation] : Starting activity...
+[2018-08-24T18:36:52.056Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AddonsAfter/ConfigLogRotation/10-config.sh] : Starting activity...
+[2018-08-24T18:36:52.131Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AddonsAfter/ConfigLogRotation/10-config.sh] : Completed activity. Result:
+  Disabled forced hourly log rotation.
+[2018-08-24T18:36:52.131Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AddonsAfter/ConfigLogRotation] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/addons/logpublish/hooks/config.
+[2018-08-24T18:36:52.131Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17/AddonsAfter] : Completed activity.
+[2018-08-24T18:36:52.131Z] INFO  [3423]  - [Application update app-84b2-180824_133629@17] : Completed activity. Result:
+  Application update - Command CMD-AppDeploy succeeded
+[2018-08-24T18:37:27.857Z] INFO  [3713]  - [CMD-TailLogs] : Starting activity...
+[2018-08-24T18:37:27.858Z] INFO  [3713]  - [CMD-TailLogs/AddonsBefore] : Starting activity...
+[2018-08-24T18:37:27.858Z] INFO  [3713]  - [CMD-TailLogs/AddonsBefore] : Completed activity.
+[2018-08-24T18:37:27.858Z] INFO  [3713]  - [CMD-TailLogs/TailLogs] : Starting activity...
+[2018-08-24T18:37:27.858Z] INFO  [3713]  - [CMD-TailLogs/TailLogs/TailLogs] : Starting activity...
 
 
 
 -------------------------------------
 /var/log/eb-commandprocessor.log
 -------------------------------------
-  Traceback (most recent call last):
-    File "/opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py", line 22, in main
-      install_dependencies()
-    File "/opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py", line 18, in install_dependencies
-      check_call('%s install -r %s' % (os.path.join(APP_VIRTUAL_ENV, 'bin', 'pip'), requirements_file), shell=True)
-    File "/usr/lib64/python2.7/subprocess.py", line 186, in check_call
-      raise CalledProcessError(retcode, cmd)
-  CalledProcessError: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1 (ElasticBeanstalk::ExternalInvocationError)
-caused by: Collecting certifi==2018.4.16 (from -r /opt/python/ondeck/app/requirements.txt (line 1))
-    Using cached https://files.pythonhosted.org/packages/7c/e6/92ad559b7192d846975fc916b65f667c7b8c3a32bea7372340bfe9a15fa5/certifi-2018.4.16-py2.py3-none-any.whl
-  Collecting chardet==3.0.4 (from -r /opt/python/ondeck/app/requirements.txt (line 2))
-    Using cached https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl
-  Collecting click==6.7 (from -r /opt/python/ondeck/app/requirements.txt (line 3))
-    Using cached https://files.pythonhosted.org/packages/34/c1/8806f99713ddb993c5366c362b2f908f18269f8d792aff1abfd700775a77/click-6.7-py2.py3-none-any.whl
-  Collecting dash==0.22.0 (from -r /opt/python/ondeck/app/requirements.txt (line 4))
-    Using cached https://files.pythonhosted.org/packages/a5/ee/1c36e4a6f2d412843c7703339f51055f06fe34c1ffbb4c502db16df374ce/dash-0.22.0.tar.gz
-  Collecting dash-core-components==0.26.0 (from -r /opt/python/ondeck/app/requirements.txt (line 5))
-    Using cached https://files.pythonhosted.org/packages/4b/9c/282255ac1ab408cef982c58a2f6d7c58702f1f8f2027e59f52798ebe0dd9/dash_core_components-0.26.0.tar.gz
-  Collecting dash-html-components==0.11.0 (from -r /opt/python/ondeck/app/requirements.txt (line 6))
-    Using cached https://files.pythonhosted.org/packages/cd/7d/9660cc8c763f87b69301100e2f9a9c373b5a14782547b0d80e039cc3e0e3/dash_html_components-0.11.0.tar.gz
-  Collecting dash-renderer==0.13.0 (from -r /opt/python/ondeck/app/requirements.txt (line 7))
-    Using cached https://files.pythonhosted.org/packages/98/12/8176efede4139bc31b076b0e44a0f4cb002ead600ea4fd84e2ac8afd81cc/dash_renderer-0.13.0.tar.gz
-  Collecting decorator==4.3.0 (from -r /opt/python/ondeck/app/requirements.txt (line 8))
-    Using cached https://files.pythonhosted.org/packages/bc/bb/a24838832ba35baf52f32ab1a49b906b5f82fb7c76b2f6a7e35e140bac30/decorator-4.3.0-py2.py3-none-any.whl
-  Collecting docutils==0.14 (from -r /opt/python/ondeck/app/requirements.txt (line 9))
-    Using cached https://files.pythonhosted.org/packages/36/fa/08e9e6e0e3cbd1d362c3bbee8d01d0aedb2155c4ac112b19ef3cae8eed8d/docutils-0.14-py3-none-any.whl
-  Collecting Flask==1.0.2 (from -r /opt/python/ondeck/app/requirements.txt (line 10))
-    Using cached https://files.pythonhosted.org/packages/7f/e7/08578774ed4536d3242b14dacb4696386634607af824ea997202cd0edb4b/Flask-1.0.2-py2.py3-none-any.whl
-  Collecting Flask-Compress==1.4.0 (from -r /opt/python/ondeck/app/requirements.txt (line 11))
-    Using cached https://files.pythonhosted.org/packages/0e/2a/378bd072928f6d92fd8c417d66b00c757dc361c0405a46a0134de6fd323d/Flask-Compress-1.4.0.tar.gz
-  Collecting idna==2.7 (from -r /opt/python/ondeck/app/requirements.txt (line 12))
-    Using cached https://files.pythonhosted.org/packages/4b/2a/0276479a4b3caeb8a8c1af2f8e4355746a97fab05a372e4a2c6a6b876165/idna-2.7-py2.py3-none-any.whl
-  Collecting ipython-genutils==0.2.0 (from -r /opt/python/ondeck/app/requirements.txt (line 13))
-    Using cached https://files.pythonhosted.org/packages/fa/bc/9bd3b5c2b4774d5f33b2d544f1460be9df7df2fe42f352135381c347c69a/ipython_genutils-0.2.0-py2.py3-none-any.whl
-  Collecting itsdangerous==0.24 (from -r /opt/python/ondeck/app/requirements.txt (line 14))
-    Using cached https://files.pythonhosted.org/packages/dc/b4/a60bcdba945c00f6d608d8975131ab3f25b22f2bcfe1dab221165194b2d4/itsdangerous-0.24.tar.gz
-  Collecting Jinja2==2.10 (from -r /opt/python/ondeck/app/requirements.txt (line 15))
-    Using cached https://files.pythonhosted.org/packages/7f/ff/ae64bacdfc95f27a016a7bed8e8686763ba4d277a78ca76f32659220a731/Jinja2-2.10-py2.py3-none-any.whl
-  Collecting jsonschema==2.6.0 (from -r /opt/python/ondeck/app/requirements.txt (line 16))
-    Using cached https://files.pythonhosted.org/packages/77/de/47e35a97b2b05c2fadbec67d44cfcdcd09b8086951b331d82de90d2912da/jsonschema-2.6.0-py2.py3-none-any.whl
-  Collecting jupyter-core==4.4.0 (from -r /opt/python/ondeck/app/requirements.txt (line 17))
-    Using cached https://files.pythonhosted.org/packages/1d/44/065d2d7bae7bebc06f1dd70d23c36da8c50c0f08b4236716743d706762a8/jupyter_core-4.4.0-py2.py3-none-any.whl
-  Collecting Kivy==1.10.1 (from -r /opt/python/ondeck/app/requirements.txt (line 18))
-    Using cached https://files.pythonhosted.org/packages/7d/8b/89d220b7f96dc2662b81319067f679b4cd73cda66f4aa850db5b6c6cfc7a/Kivy-1.10.1.tar.gz
-      Complete output from command python setup.py egg_info:
-      Using distutils
-      
-      Cython is missing, it's required for compiling kivy !
-      
-      
-      Traceback (most recent call last):
-        File "<string>", line 1, in <module>
-        File "/tmp/pip-build-0x5v6zdq/Kivy/setup.py", line 232, in <module>
-          from Cython.Distutils import build_ext
-      ModuleNotFoundError: No module named 'Cython'
-      
-      ----------------------------------------
-  Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-0x5v6zdq/Kivy/
+    Could not find a version that satisfies the requirement pywin32==223 (from -r /opt/python/ondeck/app/requirements.txt (line 26)) (from versions: )
+  No matching distribution found for pywin32==223 (from -r /opt/python/ondeck/app/requirements.txt (line 26))
   You are using pip version 9.0.1, however version 18.0 is available.
   You should consider upgrading via the 'pip install --upgrade pip' command.
-  2018-08-24 18:33:06,956 ERROR    Error installing dependencies: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1
+  2018-08-24 18:35:32,292 ERROR    Error installing dependencies: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1
   Traceback (most recent call last):
     File "/opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py", line 22, in main
       install_dependencies()
@@ -416,35 +363,91 @@ caused by: Collecting certifi==2018.4.16 (from -r /opt/python/ondeck/app/require
   CalledProcessError: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1 (Executor::NonZeroExitStatus)
 
 
-[2018-08-24T18:33:06.963Z] ERROR [3042]  : Command CMD-AppDeploy failed!
-[2018-08-24T18:33:06.964Z] INFO  [3042]  : Command processor returning results: 
-{"status":"FAILURE","api_version":"1.0","results":[{"status":"FAILURE","msg":"(TRUNCATED)...)\n  File \"/usr/lib64/python2.7/subprocess.py\", line 186, in check_call\n    raise CalledProcessError(retcode, cmd)\nCalledProcessError: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1. \nHook /opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py failed. For more detail, check /var/log/eb-activity.log using console or EB CLI","returncode":1,"events":[{"msg":"Your requirements.txt is invalid. Snapshot your logs for details.","severity":"ERROR","timestamp":1535135586},{"msg":"Error installing dependencies: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1","severity":"SYSTEM","timestamp":1535135586}]}],"truncated":"true"}
-[2018-08-24T18:33:48.864Z] DEBUG [3200]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
-[2018-08-24T18:33:48.864Z] DEBUG [3200]  : Checking if the command processor should execute...
-[2018-08-24T18:33:48.866Z] DEBUG [3200]  : Checking whether the command is applicable to instance (i-09ebdcb3263cfc32f)..
-[2018-08-24T18:33:48.866Z] INFO  [3200]  : Command is applicable to this instance (i-09ebdcb3263cfc32f)..
-[2018-08-24T18:33:48.866Z] DEBUG [3200]  : Checking if the received command stage is valid..
-[2018-08-24T18:33:48.866Z] INFO  [3200]  : No stage_num in command. Valid stage..
-[2018-08-24T18:33:48.866Z] INFO  [3200]  : Received command CMD-TailLogs: {"execution_data"=>"*", "instance_ids"=>["i-09ebdcb3263cfc32f"], "data"=>"4bf19434-4cf7-4baa-8581-71f4cc3eaafb", "command_name"=>"CMD-TailLogs", "api_version"=>"1.0", "resource_name"=>"AWSEBAutoScalingGroup", "request_id"=>"4bf19434-4cf7-4baa-8581-71f4cc3eaafb"}
-[2018-08-24T18:33:48.866Z] INFO  [3200]  : Command processor should execute command.
-[2018-08-24T18:33:48.866Z] DEBUG [3200]  : Storing current stage..
-[2018-08-24T18:33:48.866Z] DEBUG [3200]  : Stage_num does not exist. Not saving null stage. Returning..
-[2018-08-24T18:33:48.866Z] DEBUG [3200]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
-[2018-08-24T18:33:48.866Z] DEBUG [3200]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
-[2018-08-24T18:33:48.867Z] DEBUG [3200]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
-[2018-08-24T18:33:48.867Z] INFO  [3200]  : Found enabled addons: ["logpublish", "logstreaming"].
-[2018-08-24T18:33:48.868Z] INFO  [3200]  : Updating Command definition of addon logpublish.
-[2018-08-24T18:33:48.868Z] INFO  [3200]  : Updating Command definition of addon logstreaming.
-[2018-08-24T18:33:48.868Z] DEBUG [3200]  : Loaded definition of Command CMD-TailLogs.
-[2018-08-24T18:33:48.868Z] INFO  [3200]  : Executing CMD-TailLogs
-[2018-08-24T18:33:48.869Z] INFO  [3200]  : Executing command: CMD-TailLogs...
-[2018-08-24T18:33:48.869Z] INFO  [3200]  : Executing command CMD-TailLogs activities...
-[2018-08-24T18:33:48.869Z] DEBUG [3200]  : Setting environment variables..
-[2018-08-24T18:33:48.869Z] INFO  [3200]  : Running AddonsBefore for command CMD-TailLogs...
-[2018-08-24T18:33:48.869Z] DEBUG [3200]  : Running stages of Command CMD-TailLogs from stage 0 to stage 0...
-[2018-08-24T18:33:48.869Z] INFO  [3200]  : Running stage 0 of command CMD-TailLogs...
-[2018-08-24T18:33:48.869Z] DEBUG [3200]  : Loaded 1 actions for stage 0.
-[2018-08-24T18:33:48.869Z] INFO  [3200]  : Running 1 of 1 actions: TailLogs...
+[2018-08-24T18:35:32.299Z] ERROR [3266]  : Command CMD-AppDeploy failed!
+[2018-08-24T18:35:32.300Z] INFO  [3266]  : Command processor returning results: 
+{"status":"FAILURE","api_version":"1.0","results":[{"status":"FAILURE","msg":"(TRUNCATED)...)\n  File \"/usr/lib64/python2.7/subprocess.py\", line 186, in check_call\n    raise CalledProcessError(retcode, cmd)\nCalledProcessError: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1. \nHook /opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py failed. For more detail, check /var/log/eb-activity.log using console or EB CLI","returncode":1,"events":[{"msg":"Your requirements.txt is invalid. Snapshot your logs for details.","severity":"ERROR","timestamp":1535135732},{"msg":"Error installing dependencies: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1","severity":"SYSTEM","timestamp":1535135732}]}],"truncated":"true"}
+[2018-08-24T18:36:38.991Z] DEBUG [3423]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2018-08-24T18:36:38.992Z] DEBUG [3423]  : Checking if the command processor should execute...
+[2018-08-24T18:36:38.993Z] DEBUG [3423]  : Checking whether the command is applicable to instance (i-09ebdcb3263cfc32f)..
+[2018-08-24T18:36:38.993Z] INFO  [3423]  : Command is applicable to this instance (i-09ebdcb3263cfc32f)..
+[2018-08-24T18:36:38.993Z] DEBUG [3423]  : Checking if the received command stage is valid..
+[2018-08-24T18:36:38.993Z] INFO  [3423]  : No stage_num in command. Valid stage..
+[2018-08-24T18:36:38.993Z] INFO  [3423]  : Received command CMD-AppDeploy: {"execution_data"=>"{\"leader_election\":\"true\"}", "instance_ids"=>["i-09ebdcb3263cfc32f"], "data"=>"manifest_1535135795655", "command_name"=>"CMD-AppDeploy", "api_version"=>"1.0", "resource_name"=>"AWSEBAutoScalingGroup", "request_id"=>"442d43f9-ffbb-4672-86d0-c5060bf84892"}
+[2018-08-24T18:36:38.993Z] INFO  [3423]  : Command processor should execute command.
+[2018-08-24T18:36:38.993Z] DEBUG [3423]  : Storing current stage..
+[2018-08-24T18:36:38.993Z] DEBUG [3423]  : Stage_num does not exist. Not saving null stage. Returning..
+[2018-08-24T18:36:38.993Z] DEBUG [3423]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2018-08-24T18:36:38.993Z] DEBUG [3423]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2018-08-24T18:36:38.994Z] DEBUG [3423]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2018-08-24T18:36:38.994Z] INFO  [3423]  : Found enabled addons: ["logpublish", "logstreaming"].
+[2018-08-24T18:36:38.995Z] INFO  [3423]  : Updating Command definition of addon logpublish.
+[2018-08-24T18:36:38.995Z] INFO  [3423]  : Updating Command definition of addon logstreaming.
+[2018-08-24T18:36:38.995Z] DEBUG [3423]  : Refreshing metadata...
+[2018-08-24T18:36:39.381Z] DEBUG [3423]  : Refreshed environment metadata.
+[2018-08-24T18:36:39.382Z] INFO  [3423]  : Recreated directory /opt/elasticbeanstalk/deploy/configuration/.
+[2018-08-24T18:36:39.382Z] DEBUG [3423]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_AppSourceUrlFileContent||url..
+[2018-08-24T18:36:39.382Z] INFO  [3423]  : Created appsource url file at /opt/elasticbeanstalk/deploy/configuration/appsourceurl.
+[2018-08-24T18:36:39.382Z] DEBUG [3423]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent..
+[2018-08-24T18:36:39.384Z] INFO  [3423]  : Created container config file at /opt/elasticbeanstalk/deploy/configuration/containerconfiguration.
+[2018-08-24T18:36:39.384Z] DEBUG [3423]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2018-08-24T18:36:39.385Z] DEBUG [3423]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2018-08-24T18:36:39.385Z] INFO  [3423]  : Found enabled addons: ["logpublish", "logstreaming"].
+[2018-08-24T18:36:39.386Z] INFO  [3423]  : Updating Command definition of addon logpublish.
+[2018-08-24T18:36:39.386Z] INFO  [3423]  : Updating Command definition of addon logstreaming.
+[2018-08-24T18:36:39.386Z] DEBUG [3423]  : Retrieving metadata for key: AWS::CloudFormation::Init||Infra-WriteApplication2||files..
+[2018-08-24T18:36:39.387Z] DEBUG [3423]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||ManifestFileS3Key..
+[2018-08-24T18:36:39.475Z] INFO  [3423]  : Loading manifest from bucket 'elasticbeanstalk-us-west-2-224385755653' using computed S3 key 'resources/environments/e-fq4pf3gzgg/_runtime/versions/manifest_1535135795655'.
+[2018-08-24T18:36:39.538Z] INFO  [3423]  : Updated manifest cache: deployment ID 17 and serial 29.
+[2018-08-24T18:36:39.538Z] DEBUG [3423]  : Loaded definition of Command CMD-AppDeploy.
+[2018-08-24T18:36:39.538Z] INFO  [3423]  : Executing Application update
+[2018-08-24T18:36:39.539Z] INFO  [3423]  : Executing command: CMD-AppDeploy...
+[2018-08-24T18:36:39.539Z] INFO  [3423]  : Executing command CMD-AppDeploy activities...
+[2018-08-24T18:36:39.539Z] DEBUG [3423]  : Setting environment variables..
+[2018-08-24T18:36:39.539Z] INFO  [3423]  : Running AddonsBefore for command CMD-AppDeploy...
+[2018-08-24T18:36:39.655Z] DEBUG [3423]  : Running stages of Command CMD-AppDeploy from stage 0 to stage 1...
+[2018-08-24T18:36:39.655Z] INFO  [3423]  : Running stage 0 of command CMD-AppDeploy...
+[2018-08-24T18:36:39.655Z] INFO  [3423]  : Running leader election...
+[2018-08-24T18:36:40.036Z] INFO  [3423]  : Instance is Leader.
+[2018-08-24T18:36:40.037Z] DEBUG [3423]  : Loaded 5 actions for stage 0.
+[2018-08-24T18:36:40.037Z] INFO  [3423]  : Running 1 of 5 actions: DownloadSourceBundle...
+[2018-08-24T18:36:40.326Z] INFO  [3423]  : Running 2 of 5 actions: EbExtensionPreBuild...
+[2018-08-24T18:36:40.728Z] INFO  [3423]  : Running 3 of 5 actions: AppDeployPreHook...
+[2018-08-24T18:36:42.853Z] INFO  [3423]  : Running 4 of 5 actions: EbExtensionPostBuild...
+[2018-08-24T18:36:43.257Z] INFO  [3423]  : Running 5 of 5 actions: InfraCleanEbextension...
+[2018-08-24T18:36:43.257Z] INFO  [3423]  : Running stage 1 of command CMD-AppDeploy...
+[2018-08-24T18:36:43.257Z] DEBUG [3423]  : Loaded 2 actions for stage 1.
+[2018-08-24T18:36:43.257Z] INFO  [3423]  : Running 1 of 2 actions: AppDeployEnactHook...
+[2018-08-24T18:36:52.056Z] INFO  [3423]  : Running 2 of 2 actions: AppDeployPostHook...
+[2018-08-24T18:36:52.056Z] INFO  [3423]  : Running AddonsAfter for command CMD-AppDeploy...
+[2018-08-24T18:36:52.131Z] INFO  [3423]  : Command CMD-AppDeploy succeeded!
+[2018-08-24T18:36:52.131Z] INFO  [3423]  : Command processor returning results: 
+{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+[2018-08-24T18:37:27.853Z] DEBUG [3713]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2018-08-24T18:37:27.853Z] DEBUG [3713]  : Checking if the command processor should execute...
+[2018-08-24T18:37:27.854Z] DEBUG [3713]  : Checking whether the command is applicable to instance (i-09ebdcb3263cfc32f)..
+[2018-08-24T18:37:27.854Z] INFO  [3713]  : Command is applicable to this instance (i-09ebdcb3263cfc32f)..
+[2018-08-24T18:37:27.854Z] DEBUG [3713]  : Checking if the received command stage is valid..
+[2018-08-24T18:37:27.854Z] INFO  [3713]  : No stage_num in command. Valid stage..
+[2018-08-24T18:37:27.855Z] INFO  [3713]  : Received command CMD-TailLogs: {"execution_data"=>"*", "instance_ids"=>["i-09ebdcb3263cfc32f"], "data"=>"837a738b-8531-4a2a-b040-4a36bafe0b9b", "command_name"=>"CMD-TailLogs", "api_version"=>"1.0", "resource_name"=>"AWSEBAutoScalingGroup", "request_id"=>"837a738b-8531-4a2a-b040-4a36bafe0b9b"}
+[2018-08-24T18:37:27.855Z] INFO  [3713]  : Command processor should execute command.
+[2018-08-24T18:37:27.855Z] DEBUG [3713]  : Storing current stage..
+[2018-08-24T18:37:27.855Z] DEBUG [3713]  : Stage_num does not exist. Not saving null stage. Returning..
+[2018-08-24T18:37:27.855Z] DEBUG [3713]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2018-08-24T18:37:27.855Z] DEBUG [3713]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2018-08-24T18:37:27.855Z] DEBUG [3713]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2018-08-24T18:37:27.856Z] INFO  [3713]  : Found enabled addons: ["logpublish", "logstreaming"].
+[2018-08-24T18:37:27.857Z] INFO  [3713]  : Updating Command definition of addon logpublish.
+[2018-08-24T18:37:27.857Z] INFO  [3713]  : Updating Command definition of addon logstreaming.
+[2018-08-24T18:37:27.857Z] DEBUG [3713]  : Loaded definition of Command CMD-TailLogs.
+[2018-08-24T18:37:27.857Z] INFO  [3713]  : Executing CMD-TailLogs
+[2018-08-24T18:37:27.857Z] INFO  [3713]  : Executing command: CMD-TailLogs...
+[2018-08-24T18:37:27.857Z] INFO  [3713]  : Executing command CMD-TailLogs activities...
+[2018-08-24T18:37:27.858Z] DEBUG [3713]  : Setting environment variables..
+[2018-08-24T18:37:27.858Z] INFO  [3713]  : Running AddonsBefore for command CMD-TailLogs...
+[2018-08-24T18:37:27.858Z] DEBUG [3713]  : Running stages of Command CMD-TailLogs from stage 0 to stage 0...
+[2018-08-24T18:37:27.858Z] INFO  [3713]  : Running stage 0 of command CMD-TailLogs...
+[2018-08-24T18:37:27.858Z] DEBUG [3713]  : Loaded 1 actions for stage 0.
+[2018-08-24T18:37:27.858Z] INFO  [3713]  : Running 1 of 1 actions: TailLogs...
 
 
 
