@@ -1,3 +1,8 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+[packages]
 certifi==2018.4.16
 chardet==3.0.4
 click==6.7
@@ -34,3 +39,6 @@ six==1.11.0
 traitlets==4.3.2
 urllib3==1.23
 Werkzeug==0.14.1
+
+[requires]
+python_version = "3.6"
