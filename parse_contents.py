@@ -4,7 +4,7 @@ Created on Thu Aug 23 10:54:31 2018
 
 @author: agarw
 """
-#import dash_table_experiments as dte
+import dash_table_experiments as dte
 
 import base64
 import datetime
@@ -41,7 +41,7 @@ def parse_contents(contents, filename, date):
 
         # Use the DataTable prototype component:
         # github.com/plotly/dash-table-experiments
-        #dte.DataTable(rows=df.to_dict('records')),
+        dte.DataTable(rows=df.to_dict('records')),
 
         html.Hr(),  # horizontal line
 
