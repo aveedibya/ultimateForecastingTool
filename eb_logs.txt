@@ -249,15 +249,15 @@ Retrieving logs...
       
       Traceback (most recent call last):
         File "<string>", line 1, in <module>
-        File "/tmp/pip-build-2k6dizpi/Kivy/setup.py", line 232, in <module>
+        File "/tmp/pip-build-0x5v6zdq/Kivy/setup.py", line 232, in <module>
           from Cython.Distutils import build_ext
       ModuleNotFoundError: No module named 'Cython'
       
       ----------------------------------------
-  Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-2k6dizpi/Kivy/
+  Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-0x5v6zdq/Kivy/
   You are using pip version 9.0.1, however version 18.0 is available.
   You should consider upgrading via the 'pip install --upgrade pip' command.
-  2018-08-24 18:25:22,992 ERROR    Error installing dependencies: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1
+  2018-08-24 18:33:06,956 ERROR    Error installing dependencies: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1
   Traceback (most recent call last):
     File "/opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py", line 22, in main
       install_dependencies()
@@ -310,15 +310,15 @@ caused by: Collecting certifi==2018.4.16 (from -r /opt/python/ondeck/app/require
       
       Traceback (most recent call last):
         File "<string>", line 1, in <module>
-        File "/tmp/pip-build-2k6dizpi/Kivy/setup.py", line 232, in <module>
+        File "/tmp/pip-build-0x5v6zdq/Kivy/setup.py", line 232, in <module>
           from Cython.Distutils import build_ext
       ModuleNotFoundError: No module named 'Cython'
       
       ----------------------------------------
-  Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-2k6dizpi/Kivy/
+  Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-0x5v6zdq/Kivy/
   You are using pip version 9.0.1, however version 18.0 is available.
   You should consider upgrading via the 'pip install --upgrade pip' command.
-  2018-08-24 18:25:22,992 ERROR    Error installing dependencies: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1
+  2018-08-24 18:33:06,956 ERROR    Error installing dependencies: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1
   Traceback (most recent call last):
     File "/opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py", line 22, in main
       install_dependencies()
@@ -329,16 +329,16 @@ caused by: Collecting certifi==2018.4.16 (from -r /opt/python/ondeck/app/require
   CalledProcessError: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1 (Executor::NonZeroExitStatus)
 
 
-[2018-08-24T18:25:22.999Z] INFO  [2639]  - [Application update app-87da-180824_132508@14/AppDeployStage0/AppDeployPreHook/03deploy.py] : Activity failed.
-[2018-08-24T18:25:22.999Z] INFO  [2639]  - [Application update app-87da-180824_132508@14/AppDeployStage0/AppDeployPreHook] : Activity failed.
-[2018-08-24T18:25:22.999Z] INFO  [2639]  - [Application update app-87da-180824_132508@14/AppDeployStage0] : Activity failed.
-[2018-08-24T18:25:22.999Z] INFO  [2639]  - [Application update app-87da-180824_132508@14] : Completed activity. Result:
+[2018-08-24T18:33:06.962Z] INFO  [3042]  - [Application update app-862e-180824_133252@15/AppDeployStage0/AppDeployPreHook/03deploy.py] : Activity failed.
+[2018-08-24T18:33:06.962Z] INFO  [3042]  - [Application update app-862e-180824_133252@15/AppDeployStage0/AppDeployPreHook] : Activity failed.
+[2018-08-24T18:33:06.962Z] INFO  [3042]  - [Application update app-862e-180824_133252@15/AppDeployStage0] : Activity failed.
+[2018-08-24T18:33:06.963Z] INFO  [3042]  - [Application update app-862e-180824_133252@15] : Completed activity. Result:
   Application update - Command CMD-AppDeploy failed
-[2018-08-24T18:26:32.346Z] INFO  [2805]  - [CMD-TailLogs] : Starting activity...
-[2018-08-24T18:26:32.346Z] INFO  [2805]  - [CMD-TailLogs/AddonsBefore] : Starting activity...
-[2018-08-24T18:26:32.346Z] INFO  [2805]  - [CMD-TailLogs/AddonsBefore] : Completed activity.
-[2018-08-24T18:26:32.346Z] INFO  [2805]  - [CMD-TailLogs/TailLogs] : Starting activity...
-[2018-08-24T18:26:32.346Z] INFO  [2805]  - [CMD-TailLogs/TailLogs/TailLogs] : Starting activity...
+[2018-08-24T18:33:48.869Z] INFO  [3200]  - [CMD-TailLogs] : Starting activity...
+[2018-08-24T18:33:48.869Z] INFO  [3200]  - [CMD-TailLogs/AddonsBefore] : Starting activity...
+[2018-08-24T18:33:48.869Z] INFO  [3200]  - [CMD-TailLogs/AddonsBefore] : Completed activity.
+[2018-08-24T18:33:48.869Z] INFO  [3200]  - [CMD-TailLogs/TailLogs] : Starting activity...
+[2018-08-24T18:33:48.869Z] INFO  [3200]  - [CMD-TailLogs/TailLogs/TailLogs] : Starting activity...
 
 
 
@@ -397,15 +397,15 @@ caused by: Collecting certifi==2018.4.16 (from -r /opt/python/ondeck/app/require
       
       Traceback (most recent call last):
         File "<string>", line 1, in <module>
-        File "/tmp/pip-build-2k6dizpi/Kivy/setup.py", line 232, in <module>
+        File "/tmp/pip-build-0x5v6zdq/Kivy/setup.py", line 232, in <module>
           from Cython.Distutils import build_ext
       ModuleNotFoundError: No module named 'Cython'
       
       ----------------------------------------
-  Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-2k6dizpi/Kivy/
+  Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-0x5v6zdq/Kivy/
   You are using pip version 9.0.1, however version 18.0 is available.
   You should consider upgrading via the 'pip install --upgrade pip' command.
-  2018-08-24 18:25:22,992 ERROR    Error installing dependencies: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1
+  2018-08-24 18:33:06,956 ERROR    Error installing dependencies: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1
   Traceback (most recent call last):
     File "/opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py", line 22, in main
       install_dependencies()
@@ -416,35 +416,35 @@ caused by: Collecting certifi==2018.4.16 (from -r /opt/python/ondeck/app/require
   CalledProcessError: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1 (Executor::NonZeroExitStatus)
 
 
-[2018-08-24T18:25:22.999Z] ERROR [2639]  : Command CMD-AppDeploy failed!
-[2018-08-24T18:25:23.000Z] INFO  [2639]  : Command processor returning results: 
-{"status":"FAILURE","api_version":"1.0","results":[{"status":"FAILURE","msg":"(TRUNCATED)...)\n  File \"/usr/lib64/python2.7/subprocess.py\", line 186, in check_call\n    raise CalledProcessError(retcode, cmd)\nCalledProcessError: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1. \nHook /opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py failed. For more detail, check /var/log/eb-activity.log using console or EB CLI","returncode":1,"events":[{"msg":"Your requirements.txt is invalid. Snapshot your logs for details.","severity":"ERROR","timestamp":1535135122},{"msg":"Error installing dependencies: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1","severity":"SYSTEM","timestamp":1535135122}]}],"truncated":"true"}
-[2018-08-24T18:26:32.342Z] DEBUG [2805]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
-[2018-08-24T18:26:32.342Z] DEBUG [2805]  : Checking if the command processor should execute...
-[2018-08-24T18:26:32.343Z] DEBUG [2805]  : Checking whether the command is applicable to instance (i-09ebdcb3263cfc32f)..
-[2018-08-24T18:26:32.343Z] INFO  [2805]  : Command is applicable to this instance (i-09ebdcb3263cfc32f)..
-[2018-08-24T18:26:32.343Z] DEBUG [2805]  : Checking if the received command stage is valid..
-[2018-08-24T18:26:32.343Z] INFO  [2805]  : No stage_num in command. Valid stage..
-[2018-08-24T18:26:32.343Z] INFO  [2805]  : Received command CMD-TailLogs: {"execution_data"=>"*", "instance_ids"=>["i-09ebdcb3263cfc32f"], "data"=>"61f13fa8-4e85-4c97-9803-a65230f3d892", "command_name"=>"CMD-TailLogs", "api_version"=>"1.0", "resource_name"=>"AWSEBAutoScalingGroup", "request_id"=>"61f13fa8-4e85-4c97-9803-a65230f3d892"}
-[2018-08-24T18:26:32.343Z] INFO  [2805]  : Command processor should execute command.
-[2018-08-24T18:26:32.343Z] DEBUG [2805]  : Storing current stage..
-[2018-08-24T18:26:32.343Z] DEBUG [2805]  : Stage_num does not exist. Not saving null stage. Returning..
-[2018-08-24T18:26:32.343Z] DEBUG [2805]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
-[2018-08-24T18:26:32.343Z] DEBUG [2805]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
-[2018-08-24T18:26:32.344Z] DEBUG [2805]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
-[2018-08-24T18:26:32.344Z] INFO  [2805]  : Found enabled addons: ["logpublish", "logstreaming"].
-[2018-08-24T18:26:32.346Z] INFO  [2805]  : Updating Command definition of addon logpublish.
-[2018-08-24T18:26:32.346Z] INFO  [2805]  : Updating Command definition of addon logstreaming.
-[2018-08-24T18:26:32.346Z] DEBUG [2805]  : Loaded definition of Command CMD-TailLogs.
-[2018-08-24T18:26:32.346Z] INFO  [2805]  : Executing CMD-TailLogs
-[2018-08-24T18:26:32.346Z] INFO  [2805]  : Executing command: CMD-TailLogs...
-[2018-08-24T18:26:32.346Z] INFO  [2805]  : Executing command CMD-TailLogs activities...
-[2018-08-24T18:26:32.346Z] DEBUG [2805]  : Setting environment variables..
-[2018-08-24T18:26:32.346Z] INFO  [2805]  : Running AddonsBefore for command CMD-TailLogs...
-[2018-08-24T18:26:32.346Z] DEBUG [2805]  : Running stages of Command CMD-TailLogs from stage 0 to stage 0...
-[2018-08-24T18:26:32.346Z] INFO  [2805]  : Running stage 0 of command CMD-TailLogs...
-[2018-08-24T18:26:32.346Z] DEBUG [2805]  : Loaded 1 actions for stage 0.
-[2018-08-24T18:26:32.346Z] INFO  [2805]  : Running 1 of 1 actions: TailLogs...
+[2018-08-24T18:33:06.963Z] ERROR [3042]  : Command CMD-AppDeploy failed!
+[2018-08-24T18:33:06.964Z] INFO  [3042]  : Command processor returning results: 
+{"status":"FAILURE","api_version":"1.0","results":[{"status":"FAILURE","msg":"(TRUNCATED)...)\n  File \"/usr/lib64/python2.7/subprocess.py\", line 186, in check_call\n    raise CalledProcessError(retcode, cmd)\nCalledProcessError: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1. \nHook /opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py failed. For more detail, check /var/log/eb-activity.log using console or EB CLI","returncode":1,"events":[{"msg":"Your requirements.txt is invalid. Snapshot your logs for details.","severity":"ERROR","timestamp":1535135586},{"msg":"Error installing dependencies: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1","severity":"SYSTEM","timestamp":1535135586}]}],"truncated":"true"}
+[2018-08-24T18:33:48.864Z] DEBUG [3200]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2018-08-24T18:33:48.864Z] DEBUG [3200]  : Checking if the command processor should execute...
+[2018-08-24T18:33:48.866Z] DEBUG [3200]  : Checking whether the command is applicable to instance (i-09ebdcb3263cfc32f)..
+[2018-08-24T18:33:48.866Z] INFO  [3200]  : Command is applicable to this instance (i-09ebdcb3263cfc32f)..
+[2018-08-24T18:33:48.866Z] DEBUG [3200]  : Checking if the received command stage is valid..
+[2018-08-24T18:33:48.866Z] INFO  [3200]  : No stage_num in command. Valid stage..
+[2018-08-24T18:33:48.866Z] INFO  [3200]  : Received command CMD-TailLogs: {"execution_data"=>"*", "instance_ids"=>["i-09ebdcb3263cfc32f"], "data"=>"4bf19434-4cf7-4baa-8581-71f4cc3eaafb", "command_name"=>"CMD-TailLogs", "api_version"=>"1.0", "resource_name"=>"AWSEBAutoScalingGroup", "request_id"=>"4bf19434-4cf7-4baa-8581-71f4cc3eaafb"}
+[2018-08-24T18:33:48.866Z] INFO  [3200]  : Command processor should execute command.
+[2018-08-24T18:33:48.866Z] DEBUG [3200]  : Storing current stage..
+[2018-08-24T18:33:48.866Z] DEBUG [3200]  : Stage_num does not exist. Not saving null stage. Returning..
+[2018-08-24T18:33:48.866Z] DEBUG [3200]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2018-08-24T18:33:48.866Z] DEBUG [3200]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2018-08-24T18:33:48.867Z] DEBUG [3200]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2018-08-24T18:33:48.867Z] INFO  [3200]  : Found enabled addons: ["logpublish", "logstreaming"].
+[2018-08-24T18:33:48.868Z] INFO  [3200]  : Updating Command definition of addon logpublish.
+[2018-08-24T18:33:48.868Z] INFO  [3200]  : Updating Command definition of addon logstreaming.
+[2018-08-24T18:33:48.868Z] DEBUG [3200]  : Loaded definition of Command CMD-TailLogs.
+[2018-08-24T18:33:48.868Z] INFO  [3200]  : Executing CMD-TailLogs
+[2018-08-24T18:33:48.869Z] INFO  [3200]  : Executing command: CMD-TailLogs...
+[2018-08-24T18:33:48.869Z] INFO  [3200]  : Executing command CMD-TailLogs activities...
+[2018-08-24T18:33:48.869Z] DEBUG [3200]  : Setting environment variables..
+[2018-08-24T18:33:48.869Z] INFO  [3200]  : Running AddonsBefore for command CMD-TailLogs...
+[2018-08-24T18:33:48.869Z] DEBUG [3200]  : Running stages of Command CMD-TailLogs from stage 0 to stage 0...
+[2018-08-24T18:33:48.869Z] INFO  [3200]  : Running stage 0 of command CMD-TailLogs...
+[2018-08-24T18:33:48.869Z] DEBUG [3200]  : Loaded 1 actions for stage 0.
+[2018-08-24T18:33:48.869Z] INFO  [3200]  : Running 1 of 1 actions: TailLogs...
 
 
 
