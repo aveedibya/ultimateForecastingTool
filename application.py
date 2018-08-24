@@ -7,7 +7,7 @@ Created on Thu Aug  9 10:26:09 2018
 import base64
 import datetime
 import io
-import dash_table_experiments as dte
+#import dash_table_experiments as dte
 from parse_contents import parse_contents, parse_contents_to_df
 
 import forecast_example as fcst
@@ -159,7 +159,7 @@ app.layout = html.Div(children=[
                 multiple=True
             ),
             html.Div(id='output-data-upload'),
-            html.Div(dte.DataTable(rows=[{}]), style={'display': 'none'})
+            #html.Div(dte.DataTable(rows=[{}]), style={'display': 'none'})
         ])
 #        html.Div([dcc.Graph(id='trend_view', figure={'data':[trace_trend], 'layout':{'title':'Time Series Trend Plot'}}, style={'height': 300}),
 #                  dcc.Graph(id='seasonal_view', figure={'data':[trace_seasonal], 'layout':{'title':'Time Series Seasonal Plot'}}, style={'height': 300}),

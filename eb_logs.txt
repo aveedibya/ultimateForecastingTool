@@ -1,0 +1,450 @@
+Retrieving logs...
+============= i-09ebdcb3263cfc32f ==============
+-------------------------------------
+/var/log/httpd/error_log
+-------------------------------------
+[Fri Aug 24 10:20:16.793346 2018] [:error] [pid 5349] [remote 172.31.7.201:240] Traceback (most recent call last):
+[Fri Aug 24 10:20:16.793366 2018] [:error] [pid 5349] [remote 172.31.7.201:240]   File "/opt/python/current/app/application.py", line 10, in <module>
+[Fri Aug 24 10:20:16.793369 2018] [:error] [pid 5349] [remote 172.31.7.201:240]     import dash_table_experiments as dte
+[Fri Aug 24 10:20:16.793383 2018] [:error] [pid 5349] [remote 172.31.7.201:240] ModuleNotFoundError: No module named 'dash_table_experiments'
+[Fri Aug 24 10:23:12.042030 2018] [:error] [pid 5349] [remote 172.31.32.199:236] mod_wsgi (pid=5349): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Fri Aug 24 10:23:12.042083 2018] [:error] [pid 5349] [remote 172.31.32.199:236] mod_wsgi (pid=5349): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Fri Aug 24 10:23:12.042156 2018] [:error] [pid 5349] [remote 172.31.32.199:236] Traceback (most recent call last):
+[Fri Aug 24 10:23:12.042176 2018] [:error] [pid 5349] [remote 172.31.32.199:236]   File "/opt/python/current/app/application.py", line 10, in <module>
+[Fri Aug 24 10:23:12.042180 2018] [:error] [pid 5349] [remote 172.31.32.199:236]     import dash_table_experiments as dte
+[Fri Aug 24 10:23:12.042194 2018] [:error] [pid 5349] [remote 172.31.32.199:236] ModuleNotFoundError: No module named 'dash_table_experiments'
+[Fri Aug 24 11:44:12.588144 2018] [:error] [pid 5349] [remote 172.31.32.199:2800] mod_wsgi (pid=5349): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Fri Aug 24 11:44:12.588207 2018] [:error] [pid 5349] [remote 172.31.32.199:2800] mod_wsgi (pid=5349): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Fri Aug 24 11:44:12.588279 2018] [:error] [pid 5349] [remote 172.31.32.199:2800] Traceback (most recent call last):
+[Fri Aug 24 11:44:12.588299 2018] [:error] [pid 5349] [remote 172.31.32.199:2800]   File "/opt/python/current/app/application.py", line 10, in <module>
+[Fri Aug 24 11:44:12.588303 2018] [:error] [pid 5349] [remote 172.31.32.199:2800]     import dash_table_experiments as dte
+[Fri Aug 24 11:44:12.588388 2018] [:error] [pid 5349] [remote 172.31.32.199:2800] ModuleNotFoundError: No module named 'dash_table_experiments'
+[Fri Aug 24 12:09:13.652777 2018] [:error] [pid 5349] [remote 172.31.7.201:240] mod_wsgi (pid=5349): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Fri Aug 24 12:09:13.652831 2018] [:error] [pid 5349] [remote 172.31.7.201:240] mod_wsgi (pid=5349): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Fri Aug 24 12:09:13.652910 2018] [:error] [pid 5349] [remote 172.31.7.201:240] Traceback (most recent call last):
+[Fri Aug 24 12:09:13.652932 2018] [:error] [pid 5349] [remote 172.31.7.201:240]   File "/opt/python/current/app/application.py", line 10, in <module>
+[Fri Aug 24 12:09:13.652937 2018] [:error] [pid 5349] [remote 172.31.7.201:240]     import dash_table_experiments as dte
+[Fri Aug 24 12:09:13.652951 2018] [:error] [pid 5349] [remote 172.31.7.201:240] ModuleNotFoundError: No module named 'dash_table_experiments'
+[Fri Aug 24 12:13:01.199054 2018] [:error] [pid 5349] [remote 172.31.7.201:240] mod_wsgi (pid=5349): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Fri Aug 24 12:13:01.199109 2018] [:error] [pid 5349] [remote 172.31.7.201:240] mod_wsgi (pid=5349): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Fri Aug 24 12:13:01.199186 2018] [:error] [pid 5349] [remote 172.31.7.201:240] Traceback (most recent call last):
+[Fri Aug 24 12:13:01.199206 2018] [:error] [pid 5349] [remote 172.31.7.201:240]   File "/opt/python/current/app/application.py", line 10, in <module>
+[Fri Aug 24 12:13:01.199210 2018] [:error] [pid 5349] [remote 172.31.7.201:240]     import dash_table_experiments as dte
+[Fri Aug 24 12:13:01.199234 2018] [:error] [pid 5349] [remote 172.31.7.201:240] ModuleNotFoundError: No module named 'dash_table_experiments'
+[Fri Aug 24 12:51:48.555987 2018] [:error] [pid 5349] [remote 172.31.7.201:240] mod_wsgi (pid=5349): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Fri Aug 24 12:51:48.556037 2018] [:error] [pid 5349] [remote 172.31.7.201:240] mod_wsgi (pid=5349): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Fri Aug 24 12:51:48.556123 2018] [:error] [pid 5349] [remote 172.31.7.201:240] Traceback (most recent call last):
+[Fri Aug 24 12:51:48.556149 2018] [:error] [pid 5349] [remote 172.31.7.201:240]   File "/opt/python/current/app/application.py", line 10, in <module>
+[Fri Aug 24 12:51:48.556153 2018] [:error] [pid 5349] [remote 172.31.7.201:240]     import dash_table_experiments as dte
+[Fri Aug 24 12:51:48.556168 2018] [:error] [pid 5349] [remote 172.31.7.201:240] ModuleNotFoundError: No module named 'dash_table_experiments'
+[Fri Aug 24 13:25:03.584016 2018] [:error] [pid 5349] [remote 172.31.7.201:236] mod_wsgi (pid=5349): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Fri Aug 24 13:25:03.584067 2018] [:error] [pid 5349] [remote 172.31.7.201:236] mod_wsgi (pid=5349): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Fri Aug 24 13:25:03.584137 2018] [:error] [pid 5349] [remote 172.31.7.201:236] Traceback (most recent call last):
+[Fri Aug 24 13:25:03.584156 2018] [:error] [pid 5349] [remote 172.31.7.201:236]   File "/opt/python/current/app/application.py", line 10, in <module>
+[Fri Aug 24 13:25:03.584159 2018] [:error] [pid 5349] [remote 172.31.7.201:236]     import dash_table_experiments as dte
+[Fri Aug 24 13:25:03.584174 2018] [:error] [pid 5349] [remote 172.31.7.201:236] ModuleNotFoundError: No module named 'dash_table_experiments'
+[Fri Aug 24 14:09:03.630943 2018] [:error] [pid 5349] [remote 172.31.7.201:2800] mod_wsgi (pid=5349): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Fri Aug 24 14:09:03.630994 2018] [:error] [pid 5349] [remote 172.31.7.201:2800] mod_wsgi (pid=5349): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Fri Aug 24 14:09:03.631077 2018] [:error] [pid 5349] [remote 172.31.7.201:2800] Traceback (most recent call last):
+[Fri Aug 24 14:09:03.631096 2018] [:error] [pid 5349] [remote 172.31.7.201:2800]   File "/opt/python/current/app/application.py", line 10, in <module>
+[Fri Aug 24 14:09:03.631100 2018] [:error] [pid 5349] [remote 172.31.7.201:2800]     import dash_table_experiments as dte
+[Fri Aug 24 14:09:03.631113 2018] [:error] [pid 5349] [remote 172.31.7.201:2800] ModuleNotFoundError: No module named 'dash_table_experiments'
+[Fri Aug 24 14:54:30.613432 2018] [:error] [pid 5349] [remote 172.31.32.199:2800] mod_wsgi (pid=5349): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Fri Aug 24 14:54:30.613485 2018] [:error] [pid 5349] [remote 172.31.32.199:2800] mod_wsgi (pid=5349): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Fri Aug 24 14:54:30.613557 2018] [:error] [pid 5349] [remote 172.31.32.199:2800] Traceback (most recent call last):
+[Fri Aug 24 14:54:30.613578 2018] [:error] [pid 5349] [remote 172.31.32.199:2800]   File "/opt/python/current/app/application.py", line 10, in <module>
+[Fri Aug 24 14:54:30.613583 2018] [:error] [pid 5349] [remote 172.31.32.199:2800]     import dash_table_experiments as dte
+[Fri Aug 24 14:54:30.613598 2018] [:error] [pid 5349] [remote 172.31.32.199:2800] ModuleNotFoundError: No module named 'dash_table_experiments'
+[Fri Aug 24 15:03:23.599990 2018] [:error] [pid 5349] [remote 172.31.32.199:240] mod_wsgi (pid=5349): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Fri Aug 24 15:03:23.600042 2018] [:error] [pid 5349] [remote 172.31.32.199:240] mod_wsgi (pid=5349): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Fri Aug 24 15:03:23.600123 2018] [:error] [pid 5349] [remote 172.31.32.199:240] Traceback (most recent call last):
+[Fri Aug 24 15:03:23.600143 2018] [:error] [pid 5349] [remote 172.31.32.199:240]   File "/opt/python/current/app/application.py", line 10, in <module>
+[Fri Aug 24 15:03:23.600146 2018] [:error] [pid 5349] [remote 172.31.32.199:240]     import dash_table_experiments as dte
+[Fri Aug 24 15:03:23.600161 2018] [:error] [pid 5349] [remote 172.31.32.199:240] ModuleNotFoundError: No module named 'dash_table_experiments'
+[Fri Aug 24 15:05:11.152221 2018] [:error] [pid 5349] [remote 172.31.7.201:240] mod_wsgi (pid=5349): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Fri Aug 24 15:05:11.152274 2018] [:error] [pid 5349] [remote 172.31.7.201:240] mod_wsgi (pid=5349): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Fri Aug 24 15:05:11.152428 2018] [:error] [pid 5349] [remote 172.31.7.201:240] Traceback (most recent call last):
+[Fri Aug 24 15:05:11.152450 2018] [:error] [pid 5349] [remote 172.31.7.201:240]   File "/opt/python/current/app/application.py", line 10, in <module>
+[Fri Aug 24 15:05:11.152454 2018] [:error] [pid 5349] [remote 172.31.7.201:240]     import dash_table_experiments as dte
+[Fri Aug 24 15:05:11.152467 2018] [:error] [pid 5349] [remote 172.31.7.201:240] ModuleNotFoundError: No module named 'dash_table_experiments'
+[Fri Aug 24 15:53:15.629548 2018] [:error] [pid 5349] [remote 172.31.7.201:240] mod_wsgi (pid=5349): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Fri Aug 24 15:53:15.629664 2018] [:error] [pid 5349] [remote 172.31.7.201:240] mod_wsgi (pid=5349): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Fri Aug 24 15:53:15.630445 2018] [:error] [pid 5349] [remote 172.31.7.201:240] Traceback (most recent call last):
+[Fri Aug 24 15:53:15.630469 2018] [:error] [pid 5349] [remote 172.31.7.201:240]   File "/opt/python/current/app/application.py", line 10, in <module>
+[Fri Aug 24 15:53:15.630473 2018] [:error] [pid 5349] [remote 172.31.7.201:240]     import dash_table_experiments as dte
+[Fri Aug 24 15:53:15.630488 2018] [:error] [pid 5349] [remote 172.31.7.201:240] ModuleNotFoundError: No module named 'dash_table_experiments'
+[Fri Aug 24 16:16:30.574568 2018] [:error] [pid 5349] [remote 172.31.7.201:240] mod_wsgi (pid=5349): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Fri Aug 24 16:16:30.574626 2018] [:error] [pid 5349] [remote 172.31.7.201:240] mod_wsgi (pid=5349): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Fri Aug 24 16:16:30.574698 2018] [:error] [pid 5349] [remote 172.31.7.201:240] Traceback (most recent call last):
+[Fri Aug 24 16:16:30.574720 2018] [:error] [pid 5349] [remote 172.31.7.201:240]   File "/opt/python/current/app/application.py", line 10, in <module>
+[Fri Aug 24 16:16:30.574724 2018] [:error] [pid 5349] [remote 172.31.7.201:240]     import dash_table_experiments as dte
+[Fri Aug 24 16:16:30.574738 2018] [:error] [pid 5349] [remote 172.31.7.201:240] ModuleNotFoundError: No module named 'dash_table_experiments'
+[Fri Aug 24 16:22:49.788070 2018] [:error] [pid 5349] [remote 172.31.7.201:2800] mod_wsgi (pid=5349): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Fri Aug 24 16:22:49.788126 2018] [:error] [pid 5349] [remote 172.31.7.201:2800] mod_wsgi (pid=5349): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Fri Aug 24 16:22:49.788200 2018] [:error] [pid 5349] [remote 172.31.7.201:2800] Traceback (most recent call last):
+[Fri Aug 24 16:22:49.788221 2018] [:error] [pid 5349] [remote 172.31.7.201:2800]   File "/opt/python/current/app/application.py", line 10, in <module>
+[Fri Aug 24 16:22:49.788225 2018] [:error] [pid 5349] [remote 172.31.7.201:2800]     import dash_table_experiments as dte
+[Fri Aug 24 16:22:49.788261 2018] [:error] [pid 5349] [remote 172.31.7.201:2800] ModuleNotFoundError: No module named 'dash_table_experiments'
+[Fri Aug 24 16:39:31.319811 2018] [:error] [pid 5349] [remote 172.31.7.201:240] mod_wsgi (pid=5349): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Fri Aug 24 16:39:31.319863 2018] [:error] [pid 5349] [remote 172.31.7.201:240] mod_wsgi (pid=5349): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Fri Aug 24 16:39:31.319936 2018] [:error] [pid 5349] [remote 172.31.7.201:240] Traceback (most recent call last):
+[Fri Aug 24 16:39:31.319956 2018] [:error] [pid 5349] [remote 172.31.7.201:240]   File "/opt/python/current/app/application.py", line 10, in <module>
+[Fri Aug 24 16:39:31.319961 2018] [:error] [pid 5349] [remote 172.31.7.201:240]     import dash_table_experiments as dte
+[Fri Aug 24 16:39:31.319975 2018] [:error] [pid 5349] [remote 172.31.7.201:240] ModuleNotFoundError: No module named 'dash_table_experiments'
+[Fri Aug 24 17:13:53.765272 2018] [:error] [pid 5349] [remote 172.31.7.201:2800] mod_wsgi (pid=5349): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Fri Aug 24 17:13:53.765323 2018] [:error] [pid 5349] [remote 172.31.7.201:2800] mod_wsgi (pid=5349): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Fri Aug 24 17:13:53.765394 2018] [:error] [pid 5349] [remote 172.31.7.201:2800] Traceback (most recent call last):
+[Fri Aug 24 17:13:53.765414 2018] [:error] [pid 5349] [remote 172.31.7.201:2800]   File "/opt/python/current/app/application.py", line 10, in <module>
+[Fri Aug 24 17:13:53.765418 2018] [:error] [pid 5349] [remote 172.31.7.201:2800]     import dash_table_experiments as dte
+[Fri Aug 24 17:13:53.765444 2018] [:error] [pid 5349] [remote 172.31.7.201:2800] ModuleNotFoundError: No module named 'dash_table_experiments'
+[Fri Aug 24 17:56:42.642699 2018] [:error] [pid 5349] [remote 172.31.32.199:240] mod_wsgi (pid=5349): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Fri Aug 24 17:56:42.642749 2018] [:error] [pid 5349] [remote 172.31.32.199:240] mod_wsgi (pid=5349): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Fri Aug 24 17:56:42.642818 2018] [:error] [pid 5349] [remote 172.31.32.199:240] Traceback (most recent call last):
+[Fri Aug 24 17:56:42.642837 2018] [:error] [pid 5349] [remote 172.31.32.199:240]   File "/opt/python/current/app/application.py", line 10, in <module>
+[Fri Aug 24 17:56:42.642841 2018] [:error] [pid 5349] [remote 172.31.32.199:240]     import dash_table_experiments as dte
+[Fri Aug 24 17:56:42.642854 2018] [:error] [pid 5349] [remote 172.31.32.199:240] ModuleNotFoundError: No module named 'dash_table_experiments'
+
+
+
+-------------------------------------
+/opt/python/log/supervisord.log
+-------------------------------------
+2018-08-23 21:28:28,566 CRIT Supervisor running as root (no user in config file)
+2018-08-23 21:28:28,581 INFO RPC interface 'supervisor' initialized
+2018-08-23 21:28:28,581 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-08-23 21:28:28,581 INFO supervisord started with pid 2992
+2018-08-23 21:28:29,584 INFO spawned: 'httpd' with pid 3076
+2018-08-23 21:28:30,834 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-23 21:29:13,598 INFO stopped: httpd (exit status 0)
+2018-08-23 21:29:14,602 INFO spawned: 'httpd' with pid 3298
+2018-08-23 21:29:15,640 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-23 21:36:04,739 INFO stopped: httpd (exit status 0)
+2018-08-23 21:36:05,743 INFO spawned: 'httpd' with pid 3803
+2018-08-23 21:36:06,785 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-23 21:56:42,635 INFO stopped: httpd (exit status 0)
+2018-08-23 21:56:43,639 INFO spawned: 'httpd' with pid 4815
+2018-08-23 21:56:44,679 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-23 22:03:44,123 INFO stopped: httpd (exit status 0)
+2018-08-23 22:03:45,128 INFO spawned: 'httpd' with pid 5344
+2018-08-23 22:03:46,170 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+
+
+
+-------------------------------------
+/var/log/httpd/access_log
+-------------------------------------
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:00 +0000] "POST /weixiao.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:00 +0000] "POST /feixiang.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:00 +0000] "POST /ak47.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:01 +0000] "POST /xiao.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:01 +0000] "POST /yao.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:02 +0000] "POST /defect.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:02 +0000] "POST /webslee.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:03 +0000] "POST /q.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:03 +0000] "POST /pe.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:04 +0000] "POST /hm.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:04 +0000] "POST /cainiao.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:05 +0000] "POST /zuoshou.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:05 +0000] "POST /aotu.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:06 +0000] "POST /cmd.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:06 +0000] "POST /system.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:06 +0000] "POST /l7.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:07 +0000] "POST /l8.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:07 +0000] "POST /qaq.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:08 +0000] "POST /q.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:08 +0000] "POST /56.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:09 +0000] "POST /mz.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:09 +0000] "POST /xx.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:10 +0000] "POST /qaq.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:10 +0000] "POST /qaq.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:11 +0000] "POST /yumo.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:11 +0000] "POST /min.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:11 +0000] "POST /wanan.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:12 +0000] "POST /ssaa.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:12 +0000] "POST /qq.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:13 +0000] "POST /aw.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:13 +0000] "POST /12.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:14 +0000] "POST /hh.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:14 +0000] "POST /xiaoma.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:15 +0000] "POST /qq.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:15 +0000] "POST /data.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:16 +0000] "POST /log.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:16 +0000] "POST /fack.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+172.31.32.199 (39.106.9.208) - - [23/Aug/2018:23:34:17 +0000] "POST /angge.php HTTP/1.1" 500 527 "-" "Mozilla/5.0"
+::1 (-) - - [23/Aug/2018:23:34:49 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.33 (Amazon) mod_wsgi/3.5 Python/3.6.5 (internal dummy connection)"
+::1 (-) - - [23/Aug/2018:23:34:50 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.33 (Amazon) mod_wsgi/3.5 Python/3.6.5 (internal dummy connection)"
+::1 (-) - - [23/Aug/2018:23:34:51 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.33 (Amazon) mod_wsgi/3.5 Python/3.6.5 (internal dummy connection)"
+::1 (-) - - [23/Aug/2018:23:34:52 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.33 (Amazon) mod_wsgi/3.5 Python/3.6.5 (internal dummy connection)"
+::1 (-) - - [23/Aug/2018:23:34:53 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.33 (Amazon) mod_wsgi/3.5 Python/3.6.5 (internal dummy connection)"
+::1 (-) - - [23/Aug/2018:23:34:54 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.33 (Amazon) mod_wsgi/3.5 Python/3.6.5 (internal dummy connection)"
+::1 (-) - - [23/Aug/2018:23:34:55 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.33 (Amazon) mod_wsgi/3.5 Python/3.6.5 (internal dummy connection)"
+::1 (-) - - [23/Aug/2018:23:34:56 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.33 (Amazon) mod_wsgi/3.5 Python/3.6.5 (internal dummy connection)"
+::1 (-) - - [23/Aug/2018:23:34:57 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.33 (Amazon) mod_wsgi/3.5 Python/3.6.5 (internal dummy connection)"
+::1 (-) - - [23/Aug/2018:23:34:58 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.33 (Amazon) mod_wsgi/3.5 Python/3.6.5 (internal dummy connection)"
+::1 (-) - - [23/Aug/2018:23:34:59 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.33 (Amazon) mod_wsgi/3.5 Python/3.6.5 (internal dummy connection)"
+::1 (-) - - [23/Aug/2018:23:35:00 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.33 (Amazon) mod_wsgi/3.5 Python/3.6.5 (internal dummy connection)"
+::1 (-) - - [23/Aug/2018:23:35:01 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.33 (Amazon) mod_wsgi/3.5 Python/3.6.5 (internal dummy connection)"
+::1 (-) - - [23/Aug/2018:23:35:02 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.33 (Amazon) mod_wsgi/3.5 Python/3.6.5 (internal dummy connection)"
+::1 (-) - - [23/Aug/2018:23:35:16 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.33 (Amazon) mod_wsgi/3.5 Python/3.6.5 (internal dummy connection)"
+172.31.32.199 (181.160.141.80) - - [23/Aug/2018:23:42:07 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7"
+172.31.32.199 (201.236.215.52) - - [24/Aug/2018:00:42:46 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+172.31.7.201 (209.17.96.98) - - [24/Aug/2018:00:57:42 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)"
+172.31.32.199 (173.249.31.234) - - [24/Aug/2018:01:23:14 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 zgrab/0.x"
+172.31.32.199 (173.249.31.234) - - [24/Aug/2018:01:23:25 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 zgrab/0.x"
+::1 (-) - - [24/Aug/2018:01:24:25 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.33 (Amazon) mod_wsgi/3.5 Python/3.6.5 (internal dummy connection)"
+::1 (-) - - [24/Aug/2018:01:24:26 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.33 (Amazon) mod_wsgi/3.5 Python/3.6.5 (internal dummy connection)"
+::1 (-) - - [24/Aug/2018:01:24:41 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.33 (Amazon) mod_wsgi/3.5 Python/3.6.5 (internal dummy connection)"
+172.31.32.199 (2.177.79.91) - - [24/Aug/2018:01:30:21 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+172.31.32.199 (186.225.180.72) - - [24/Aug/2018:03:13:40 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+172.31.32.199 (107.170.210.103) - - [24/Aug/2018:03:22:16 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 zgrab/0.x"
+172.31.32.199 (104.182.133.33) - - [24/Aug/2018:03:41:14 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1"
+172.31.7.201 (5.179.84.182) - - [24/Aug/2018:03:56:07 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+172.31.7.201 (5.158.124.227) - - [24/Aug/2018:04:00:57 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+172.31.7.201 (78.157.55.140) - - [24/Aug/2018:04:26:42 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+172.31.32.199 (177.66.76.7) - - [24/Aug/2018:05:33:17 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+172.31.32.199 (103.217.154.209) - - [24/Aug/2018:06:28:29 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+172.31.7.201 (78.187.193.179) - - [24/Aug/2018:06:36:27 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+172.31.32.199 (109.93.92.44) - - [24/Aug/2018:06:37:32 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7"
+172.31.7.201 (196.52.43.51) - - [24/Aug/2018:06:37:49 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0(WindowsNT6.1;rv:31.0)Gecko/20100101Firefox/31.0"
+::1 (-) - - [24/Aug/2018:06:38:49 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.33 (Amazon) mod_wsgi/3.5 Python/3.6.5 (internal dummy connection)"
+::1 (-) - - [24/Aug/2018:06:38:50 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.33 (Amazon) mod_wsgi/3.5 Python/3.6.5 (internal dummy connection)"
+::1 (-) - - [24/Aug/2018:06:38:51 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.33 (Amazon) mod_wsgi/3.5 Python/3.6.5 (internal dummy connection)"
+172.31.32.199 (187.123.42.200) - - [24/Aug/2018:07:06:49 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+172.31.7.201 (60.191.38.77) - - [24/Aug/2018:07:17:48 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0"
+172.31.32.199 (52.90.133.244) - - [24/Aug/2018:07:27:16 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 6.2;en-US) AppleWebKit/537.32.36 (KHTML, live Gecko) Chrome/52.0.3045.106 Safari/537.32"
+172.31.32.199 (91.211.194.178) - - [24/Aug/2018:07:37:14 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+172.31.7.201 (139.162.106.181) - - [24/Aug/2018:08:55:56 +0000] "GET / HTTP/1.1" 500 527 "-" "Go-http-client/1.1"
+172.31.7.201 (176.53.223.20) - - [24/Aug/2018:09:42:22 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+172.31.32.199 (46.21.215.144) - - [24/Aug/2018:10:08:21 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+172.31.7.201 (182.171.81.202) - - [24/Aug/2018:10:20:16 +0000] "HEAD / HTTP/1.1" 500 - "-" "-"
+172.31.32.199 (190.186.105.32) - - [24/Aug/2018:10:23:12 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+172.31.32.199 (85.108.79.160) - - [24/Aug/2018:11:44:12 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7"
+172.31.7.201 (103.23.237.121) - - [24/Aug/2018:12:09:13 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+172.31.7.201 (187.56.25.162) - - [24/Aug/2018:12:13:01 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+172.31.7.201 (87.2.71.63) - - [24/Aug/2018:12:51:48 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+172.31.7.201 (220.247.170.37) - - [24/Aug/2018:13:25:03 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+172.31.7.201 (195.8.51.211) - - [24/Aug/2018:14:09:03 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+172.31.32.199 (89.34.161.204) - - [24/Aug/2018:14:54:30 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+172.31.32.199 (196.52.43.122) - - [24/Aug/2018:15:03:23 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0(WindowsNT6.1;rv:31.0)Gecko/20100101Firefox/31.0"
+172.31.7.201 (54.236.17.131) - - [24/Aug/2018:15:05:11 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 zgrab/0.x"
+172.31.7.201 (5.160.131.242) - - [24/Aug/2018:15:53:15 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7"
+172.31.7.201 (157.25.158.50) - - [24/Aug/2018:16:16:30 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+172.31.7.201 (80.82.70.118) - - [24/Aug/2018:16:22:49 +0000] "GET / HTTP/1.1" 500 527 "-" "masscan/1.0 (https://github.com/robertdavidgraham/masscan)"
+172.31.7.201 (201.49.229.176) - - [24/Aug/2018:16:39:31 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+172.31.7.201 (213.198.132.67) - - [24/Aug/2018:17:13:53 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7"
+172.31.32.199 (36.79.75.195) - - [24/Aug/2018:17:56:42 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+
+
+
+-------------------------------------
+/var/log/eb-activity.log
+-------------------------------------
+  Collecting Kivy==1.10.1 (from -r /opt/python/ondeck/app/requirements.txt (line 18))
+    Using cached https://files.pythonhosted.org/packages/7d/8b/89d220b7f96dc2662b81319067f679b4cd73cda66f4aa850db5b6c6cfc7a/Kivy-1.10.1.tar.gz
+      Complete output from command python setup.py egg_info:
+      Using distutils
+      
+      Cython is missing, it's required for compiling kivy !
+      
+      
+      Traceback (most recent call last):
+        File "<string>", line 1, in <module>
+        File "/tmp/pip-build-2k6dizpi/Kivy/setup.py", line 232, in <module>
+          from Cython.Distutils import build_ext
+      ModuleNotFoundError: No module named 'Cython'
+      
+      ----------------------------------------
+  Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-2k6dizpi/Kivy/
+  You are using pip version 9.0.1, however version 18.0 is available.
+  You should consider upgrading via the 'pip install --upgrade pip' command.
+  2018-08-24 18:25:22,992 ERROR    Error installing dependencies: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1
+  Traceback (most recent call last):
+    File "/opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py", line 22, in main
+      install_dependencies()
+    File "/opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py", line 18, in install_dependencies
+      check_call('%s install -r %s' % (os.path.join(APP_VIRTUAL_ENV, 'bin', 'pip'), requirements_file), shell=True)
+    File "/usr/lib64/python2.7/subprocess.py", line 186, in check_call
+      raise CalledProcessError(retcode, cmd)
+  CalledProcessError: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1 (ElasticBeanstalk::ExternalInvocationError)
+caused by: Collecting certifi==2018.4.16 (from -r /opt/python/ondeck/app/requirements.txt (line 1))
+    Using cached https://files.pythonhosted.org/packages/7c/e6/92ad559b7192d846975fc916b65f667c7b8c3a32bea7372340bfe9a15fa5/certifi-2018.4.16-py2.py3-none-any.whl
+  Collecting chardet==3.0.4 (from -r /opt/python/ondeck/app/requirements.txt (line 2))
+    Using cached https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl
+  Collecting click==6.7 (from -r /opt/python/ondeck/app/requirements.txt (line 3))
+    Using cached https://files.pythonhosted.org/packages/34/c1/8806f99713ddb993c5366c362b2f908f18269f8d792aff1abfd700775a77/click-6.7-py2.py3-none-any.whl
+  Collecting dash==0.22.0 (from -r /opt/python/ondeck/app/requirements.txt (line 4))
+    Using cached https://files.pythonhosted.org/packages/a5/ee/1c36e4a6f2d412843c7703339f51055f06fe34c1ffbb4c502db16df374ce/dash-0.22.0.tar.gz
+  Collecting dash-core-components==0.26.0 (from -r /opt/python/ondeck/app/requirements.txt (line 5))
+    Using cached https://files.pythonhosted.org/packages/4b/9c/282255ac1ab408cef982c58a2f6d7c58702f1f8f2027e59f52798ebe0dd9/dash_core_components-0.26.0.tar.gz
+  Collecting dash-html-components==0.11.0 (from -r /opt/python/ondeck/app/requirements.txt (line 6))
+    Using cached https://files.pythonhosted.org/packages/cd/7d/9660cc8c763f87b69301100e2f9a9c373b5a14782547b0d80e039cc3e0e3/dash_html_components-0.11.0.tar.gz
+  Collecting dash-renderer==0.13.0 (from -r /opt/python/ondeck/app/requirements.txt (line 7))
+    Using cached https://files.pythonhosted.org/packages/98/12/8176efede4139bc31b076b0e44a0f4cb002ead600ea4fd84e2ac8afd81cc/dash_renderer-0.13.0.tar.gz
+  Collecting decorator==4.3.0 (from -r /opt/python/ondeck/app/requirements.txt (line 8))
+    Using cached https://files.pythonhosted.org/packages/bc/bb/a24838832ba35baf52f32ab1a49b906b5f82fb7c76b2f6a7e35e140bac30/decorator-4.3.0-py2.py3-none-any.whl
+  Collecting docutils==0.14 (from -r /opt/python/ondeck/app/requirements.txt (line 9))
+    Using cached https://files.pythonhosted.org/packages/36/fa/08e9e6e0e3cbd1d362c3bbee8d01d0aedb2155c4ac112b19ef3cae8eed8d/docutils-0.14-py3-none-any.whl
+  Collecting Flask==1.0.2 (from -r /opt/python/ondeck/app/requirements.txt (line 10))
+    Using cached https://files.pythonhosted.org/packages/7f/e7/08578774ed4536d3242b14dacb4696386634607af824ea997202cd0edb4b/Flask-1.0.2-py2.py3-none-any.whl
+  Collecting Flask-Compress==1.4.0 (from -r /opt/python/ondeck/app/requirements.txt (line 11))
+    Using cached https://files.pythonhosted.org/packages/0e/2a/378bd072928f6d92fd8c417d66b00c757dc361c0405a46a0134de6fd323d/Flask-Compress-1.4.0.tar.gz
+  Collecting idna==2.7 (from -r /opt/python/ondeck/app/requirements.txt (line 12))
+    Using cached https://files.pythonhosted.org/packages/4b/2a/0276479a4b3caeb8a8c1af2f8e4355746a97fab05a372e4a2c6a6b876165/idna-2.7-py2.py3-none-any.whl
+  Collecting ipython-genutils==0.2.0 (from -r /opt/python/ondeck/app/requirements.txt (line 13))
+    Using cached https://files.pythonhosted.org/packages/fa/bc/9bd3b5c2b4774d5f33b2d544f1460be9df7df2fe42f352135381c347c69a/ipython_genutils-0.2.0-py2.py3-none-any.whl
+  Collecting itsdangerous==0.24 (from -r /opt/python/ondeck/app/requirements.txt (line 14))
+    Using cached https://files.pythonhosted.org/packages/dc/b4/a60bcdba945c00f6d608d8975131ab3f25b22f2bcfe1dab221165194b2d4/itsdangerous-0.24.tar.gz
+  Collecting Jinja2==2.10 (from -r /opt/python/ondeck/app/requirements.txt (line 15))
+    Using cached https://files.pythonhosted.org/packages/7f/ff/ae64bacdfc95f27a016a7bed8e8686763ba4d277a78ca76f32659220a731/Jinja2-2.10-py2.py3-none-any.whl
+  Collecting jsonschema==2.6.0 (from -r /opt/python/ondeck/app/requirements.txt (line 16))
+    Using cached https://files.pythonhosted.org/packages/77/de/47e35a97b2b05c2fadbec67d44cfcdcd09b8086951b331d82de90d2912da/jsonschema-2.6.0-py2.py3-none-any.whl
+  Collecting jupyter-core==4.4.0 (from -r /opt/python/ondeck/app/requirements.txt (line 17))
+    Using cached https://files.pythonhosted.org/packages/1d/44/065d2d7bae7bebc06f1dd70d23c36da8c50c0f08b4236716743d706762a8/jupyter_core-4.4.0-py2.py3-none-any.whl
+  Collecting Kivy==1.10.1 (from -r /opt/python/ondeck/app/requirements.txt (line 18))
+    Using cached https://files.pythonhosted.org/packages/7d/8b/89d220b7f96dc2662b81319067f679b4cd73cda66f4aa850db5b6c6cfc7a/Kivy-1.10.1.tar.gz
+      Complete output from command python setup.py egg_info:
+      Using distutils
+      
+      Cython is missing, it's required for compiling kivy !
+      
+      
+      Traceback (most recent call last):
+        File "<string>", line 1, in <module>
+        File "/tmp/pip-build-2k6dizpi/Kivy/setup.py", line 232, in <module>
+          from Cython.Distutils import build_ext
+      ModuleNotFoundError: No module named 'Cython'
+      
+      ----------------------------------------
+  Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-2k6dizpi/Kivy/
+  You are using pip version 9.0.1, however version 18.0 is available.
+  You should consider upgrading via the 'pip install --upgrade pip' command.
+  2018-08-24 18:25:22,992 ERROR    Error installing dependencies: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1
+  Traceback (most recent call last):
+    File "/opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py", line 22, in main
+      install_dependencies()
+    File "/opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py", line 18, in install_dependencies
+      check_call('%s install -r %s' % (os.path.join(APP_VIRTUAL_ENV, 'bin', 'pip'), requirements_file), shell=True)
+    File "/usr/lib64/python2.7/subprocess.py", line 186, in check_call
+      raise CalledProcessError(retcode, cmd)
+  CalledProcessError: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1 (Executor::NonZeroExitStatus)
+
+
+[2018-08-24T18:25:22.999Z] INFO  [2639]  - [Application update app-87da-180824_132508@14/AppDeployStage0/AppDeployPreHook/03deploy.py] : Activity failed.
+[2018-08-24T18:25:22.999Z] INFO  [2639]  - [Application update app-87da-180824_132508@14/AppDeployStage0/AppDeployPreHook] : Activity failed.
+[2018-08-24T18:25:22.999Z] INFO  [2639]  - [Application update app-87da-180824_132508@14/AppDeployStage0] : Activity failed.
+[2018-08-24T18:25:22.999Z] INFO  [2639]  - [Application update app-87da-180824_132508@14] : Completed activity. Result:
+  Application update - Command CMD-AppDeploy failed
+[2018-08-24T18:26:32.346Z] INFO  [2805]  - [CMD-TailLogs] : Starting activity...
+[2018-08-24T18:26:32.346Z] INFO  [2805]  - [CMD-TailLogs/AddonsBefore] : Starting activity...
+[2018-08-24T18:26:32.346Z] INFO  [2805]  - [CMD-TailLogs/AddonsBefore] : Completed activity.
+[2018-08-24T18:26:32.346Z] INFO  [2805]  - [CMD-TailLogs/TailLogs] : Starting activity...
+[2018-08-24T18:26:32.346Z] INFO  [2805]  - [CMD-TailLogs/TailLogs/TailLogs] : Starting activity...
+
+
+
+-------------------------------------
+/var/log/eb-commandprocessor.log
+-------------------------------------
+  Traceback (most recent call last):
+    File "/opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py", line 22, in main
+      install_dependencies()
+    File "/opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py", line 18, in install_dependencies
+      check_call('%s install -r %s' % (os.path.join(APP_VIRTUAL_ENV, 'bin', 'pip'), requirements_file), shell=True)
+    File "/usr/lib64/python2.7/subprocess.py", line 186, in check_call
+      raise CalledProcessError(retcode, cmd)
+  CalledProcessError: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1 (ElasticBeanstalk::ExternalInvocationError)
+caused by: Collecting certifi==2018.4.16 (from -r /opt/python/ondeck/app/requirements.txt (line 1))
+    Using cached https://files.pythonhosted.org/packages/7c/e6/92ad559b7192d846975fc916b65f667c7b8c3a32bea7372340bfe9a15fa5/certifi-2018.4.16-py2.py3-none-any.whl
+  Collecting chardet==3.0.4 (from -r /opt/python/ondeck/app/requirements.txt (line 2))
+    Using cached https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl
+  Collecting click==6.7 (from -r /opt/python/ondeck/app/requirements.txt (line 3))
+    Using cached https://files.pythonhosted.org/packages/34/c1/8806f99713ddb993c5366c362b2f908f18269f8d792aff1abfd700775a77/click-6.7-py2.py3-none-any.whl
+  Collecting dash==0.22.0 (from -r /opt/python/ondeck/app/requirements.txt (line 4))
+    Using cached https://files.pythonhosted.org/packages/a5/ee/1c36e4a6f2d412843c7703339f51055f06fe34c1ffbb4c502db16df374ce/dash-0.22.0.tar.gz
+  Collecting dash-core-components==0.26.0 (from -r /opt/python/ondeck/app/requirements.txt (line 5))
+    Using cached https://files.pythonhosted.org/packages/4b/9c/282255ac1ab408cef982c58a2f6d7c58702f1f8f2027e59f52798ebe0dd9/dash_core_components-0.26.0.tar.gz
+  Collecting dash-html-components==0.11.0 (from -r /opt/python/ondeck/app/requirements.txt (line 6))
+    Using cached https://files.pythonhosted.org/packages/cd/7d/9660cc8c763f87b69301100e2f9a9c373b5a14782547b0d80e039cc3e0e3/dash_html_components-0.11.0.tar.gz
+  Collecting dash-renderer==0.13.0 (from -r /opt/python/ondeck/app/requirements.txt (line 7))
+    Using cached https://files.pythonhosted.org/packages/98/12/8176efede4139bc31b076b0e44a0f4cb002ead600ea4fd84e2ac8afd81cc/dash_renderer-0.13.0.tar.gz
+  Collecting decorator==4.3.0 (from -r /opt/python/ondeck/app/requirements.txt (line 8))
+    Using cached https://files.pythonhosted.org/packages/bc/bb/a24838832ba35baf52f32ab1a49b906b5f82fb7c76b2f6a7e35e140bac30/decorator-4.3.0-py2.py3-none-any.whl
+  Collecting docutils==0.14 (from -r /opt/python/ondeck/app/requirements.txt (line 9))
+    Using cached https://files.pythonhosted.org/packages/36/fa/08e9e6e0e3cbd1d362c3bbee8d01d0aedb2155c4ac112b19ef3cae8eed8d/docutils-0.14-py3-none-any.whl
+  Collecting Flask==1.0.2 (from -r /opt/python/ondeck/app/requirements.txt (line 10))
+    Using cached https://files.pythonhosted.org/packages/7f/e7/08578774ed4536d3242b14dacb4696386634607af824ea997202cd0edb4b/Flask-1.0.2-py2.py3-none-any.whl
+  Collecting Flask-Compress==1.4.0 (from -r /opt/python/ondeck/app/requirements.txt (line 11))
+    Using cached https://files.pythonhosted.org/packages/0e/2a/378bd072928f6d92fd8c417d66b00c757dc361c0405a46a0134de6fd323d/Flask-Compress-1.4.0.tar.gz
+  Collecting idna==2.7 (from -r /opt/python/ondeck/app/requirements.txt (line 12))
+    Using cached https://files.pythonhosted.org/packages/4b/2a/0276479a4b3caeb8a8c1af2f8e4355746a97fab05a372e4a2c6a6b876165/idna-2.7-py2.py3-none-any.whl
+  Collecting ipython-genutils==0.2.0 (from -r /opt/python/ondeck/app/requirements.txt (line 13))
+    Using cached https://files.pythonhosted.org/packages/fa/bc/9bd3b5c2b4774d5f33b2d544f1460be9df7df2fe42f352135381c347c69a/ipython_genutils-0.2.0-py2.py3-none-any.whl
+  Collecting itsdangerous==0.24 (from -r /opt/python/ondeck/app/requirements.txt (line 14))
+    Using cached https://files.pythonhosted.org/packages/dc/b4/a60bcdba945c00f6d608d8975131ab3f25b22f2bcfe1dab221165194b2d4/itsdangerous-0.24.tar.gz
+  Collecting Jinja2==2.10 (from -r /opt/python/ondeck/app/requirements.txt (line 15))
+    Using cached https://files.pythonhosted.org/packages/7f/ff/ae64bacdfc95f27a016a7bed8e8686763ba4d277a78ca76f32659220a731/Jinja2-2.10-py2.py3-none-any.whl
+  Collecting jsonschema==2.6.0 (from -r /opt/python/ondeck/app/requirements.txt (line 16))
+    Using cached https://files.pythonhosted.org/packages/77/de/47e35a97b2b05c2fadbec67d44cfcdcd09b8086951b331d82de90d2912da/jsonschema-2.6.0-py2.py3-none-any.whl
+  Collecting jupyter-core==4.4.0 (from -r /opt/python/ondeck/app/requirements.txt (line 17))
+    Using cached https://files.pythonhosted.org/packages/1d/44/065d2d7bae7bebc06f1dd70d23c36da8c50c0f08b4236716743d706762a8/jupyter_core-4.4.0-py2.py3-none-any.whl
+  Collecting Kivy==1.10.1 (from -r /opt/python/ondeck/app/requirements.txt (line 18))
+    Using cached https://files.pythonhosted.org/packages/7d/8b/89d220b7f96dc2662b81319067f679b4cd73cda66f4aa850db5b6c6cfc7a/Kivy-1.10.1.tar.gz
+      Complete output from command python setup.py egg_info:
+      Using distutils
+      
+      Cython is missing, it's required for compiling kivy !
+      
+      
+      Traceback (most recent call last):
+        File "<string>", line 1, in <module>
+        File "/tmp/pip-build-2k6dizpi/Kivy/setup.py", line 232, in <module>
+          from Cython.Distutils import build_ext
+      ModuleNotFoundError: No module named 'Cython'
+      
+      ----------------------------------------
+  Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-2k6dizpi/Kivy/
+  You are using pip version 9.0.1, however version 18.0 is available.
+  You should consider upgrading via the 'pip install --upgrade pip' command.
+  2018-08-24 18:25:22,992 ERROR    Error installing dependencies: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1
+  Traceback (most recent call last):
+    File "/opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py", line 22, in main
+      install_dependencies()
+    File "/opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py", line 18, in install_dependencies
+      check_call('%s install -r %s' % (os.path.join(APP_VIRTUAL_ENV, 'bin', 'pip'), requirements_file), shell=True)
+    File "/usr/lib64/python2.7/subprocess.py", line 186, in check_call
+      raise CalledProcessError(retcode, cmd)
+  CalledProcessError: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1 (Executor::NonZeroExitStatus)
+
+
+[2018-08-24T18:25:22.999Z] ERROR [2639]  : Command CMD-AppDeploy failed!
+[2018-08-24T18:25:23.000Z] INFO  [2639]  : Command processor returning results: 
+{"status":"FAILURE","api_version":"1.0","results":[{"status":"FAILURE","msg":"(TRUNCATED)...)\n  File \"/usr/lib64/python2.7/subprocess.py\", line 186, in check_call\n    raise CalledProcessError(retcode, cmd)\nCalledProcessError: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1. \nHook /opt/elasticbeanstalk/hooks/appdeploy/pre/03deploy.py failed. For more detail, check /var/log/eb-activity.log using console or EB CLI","returncode":1,"events":[{"msg":"Your requirements.txt is invalid. Snapshot your logs for details.","severity":"ERROR","timestamp":1535135122},{"msg":"Error installing dependencies: Command '/opt/python/run/venv/bin/pip install -r /opt/python/ondeck/app/requirements.txt' returned non-zero exit status 1","severity":"SYSTEM","timestamp":1535135122}]}],"truncated":"true"}
+[2018-08-24T18:26:32.342Z] DEBUG [2805]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2018-08-24T18:26:32.342Z] DEBUG [2805]  : Checking if the command processor should execute...
+[2018-08-24T18:26:32.343Z] DEBUG [2805]  : Checking whether the command is applicable to instance (i-09ebdcb3263cfc32f)..
+[2018-08-24T18:26:32.343Z] INFO  [2805]  : Command is applicable to this instance (i-09ebdcb3263cfc32f)..
+[2018-08-24T18:26:32.343Z] DEBUG [2805]  : Checking if the received command stage is valid..
+[2018-08-24T18:26:32.343Z] INFO  [2805]  : No stage_num in command. Valid stage..
+[2018-08-24T18:26:32.343Z] INFO  [2805]  : Received command CMD-TailLogs: {"execution_data"=>"*", "instance_ids"=>["i-09ebdcb3263cfc32f"], "data"=>"61f13fa8-4e85-4c97-9803-a65230f3d892", "command_name"=>"CMD-TailLogs", "api_version"=>"1.0", "resource_name"=>"AWSEBAutoScalingGroup", "request_id"=>"61f13fa8-4e85-4c97-9803-a65230f3d892"}
+[2018-08-24T18:26:32.343Z] INFO  [2805]  : Command processor should execute command.
+[2018-08-24T18:26:32.343Z] DEBUG [2805]  : Storing current stage..
+[2018-08-24T18:26:32.343Z] DEBUG [2805]  : Stage_num does not exist. Not saving null stage. Returning..
+[2018-08-24T18:26:32.343Z] DEBUG [2805]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2018-08-24T18:26:32.343Z] DEBUG [2805]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2018-08-24T18:26:32.344Z] DEBUG [2805]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2018-08-24T18:26:32.344Z] INFO  [2805]  : Found enabled addons: ["logpublish", "logstreaming"].
+[2018-08-24T18:26:32.346Z] INFO  [2805]  : Updating Command definition of addon logpublish.
+[2018-08-24T18:26:32.346Z] INFO  [2805]  : Updating Command definition of addon logstreaming.
+[2018-08-24T18:26:32.346Z] DEBUG [2805]  : Loaded definition of Command CMD-TailLogs.
+[2018-08-24T18:26:32.346Z] INFO  [2805]  : Executing CMD-TailLogs
+[2018-08-24T18:26:32.346Z] INFO  [2805]  : Executing command: CMD-TailLogs...
+[2018-08-24T18:26:32.346Z] INFO  [2805]  : Executing command CMD-TailLogs activities...
+[2018-08-24T18:26:32.346Z] DEBUG [2805]  : Setting environment variables..
+[2018-08-24T18:26:32.346Z] INFO  [2805]  : Running AddonsBefore for command CMD-TailLogs...
+[2018-08-24T18:26:32.346Z] DEBUG [2805]  : Running stages of Command CMD-TailLogs from stage 0 to stage 0...
+[2018-08-24T18:26:32.346Z] INFO  [2805]  : Running stage 0 of command CMD-TailLogs...
+[2018-08-24T18:26:32.346Z] DEBUG [2805]  : Loaded 1 actions for stage 0.
+[2018-08-24T18:26:32.346Z] INFO  [2805]  : Running 1 of 1 actions: TailLogs...
+
+
+
