@@ -31,4 +31,3 @@ urllib3==1.23
 Werkzeug==0.14.1
 Kivy==1.10.1
 Kivy-Garden==0.1.4
-kivy.deps.sdl2==0.1.18
