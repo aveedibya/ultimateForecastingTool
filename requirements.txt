@@ -29,3 +29,7 @@ six==1.11.0
 traitlets==4.3.2
 urllib3==1.23
 Werkzeug==0.14.1
+Kivy==1.10.1
+Kivy-Garden==0.1.4
+kivy.deps.glew==0.1.10
+kivy.deps.sdl2==0.1.18
