@@ -1,14 +1,12 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Aug  8 16:56:52 2018
-
-@author: agarw
+@author: Aveedibya Dey
 """
 
 import pandas as pd
 import numpy as np
 import datetime
-
 
 def fcst_wklyavg(df, fcst_range=90, n_week=6, stop_at_futuredates=0, data_period=7):
 
@@ -25,6 +23,8 @@ def fcst_wklyavg(df, fcst_range=90, n_week=6, stop_at_futuredates=0, data_period
     df_final = pd.concat([df, df2]).reset_index().drop('index', axis=1)
     
     df_final['Forecast'] = 0.0
+    print(df_final.dtypes)
+    df_final = df_final.convert_objects(convert_numeric=True)
     
     if stop_at_futuredates == 0:
         #n-week average:
@@ -57,5 +57,7 @@ def fcst_wklyavg(df, fcst_range=90, n_week=6, stop_at_futuredates=0, data_period
     print('------------------Moving Average Forecast Generated-------------------')
     return df_final
     
-
+if __name__ == "__main__":
+    df_final = fcst_wklyavg(df)
+    print(df_final.tail())
     
