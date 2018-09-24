@@ -6,7 +6,7 @@ Created on Tue Aug 21 16:31:25 2018
 import pandas as pd
 from statsmodels.tsa.seasonal import seasonal_decompose
 import fbprophet
-from pyramid.arima import auto_arima
+#from pyramid.arima import auto_arima
 
 def forecast_ARIMA(df,p=1,d=0,q=1,model_type='additive', fcst_range=90):
     '''
@@ -43,20 +43,21 @@ def forecast_FBProphet(df, dscolumn=0, ycolumn=1, futureperiod=365):
     
 #------------------------------------
 #Auto Arima
-
-def forecast_AutoARIMA(data, datecolumn=0, timeseriescolumn=1, futureperiod=90):
-    '''
-    '''
-    stepwise_model = auto_arima(data, start_p=1, start_q=1,
-                           max_p=7, max_q=7, m=12,
-                           start_P=0, seasonal=True,
-                           d=1, trace=True,
-                           error_action='ignore',  
-                           suppress_warnings=True, 
-                           stepwise=True)
-    #train model
-    stepwise_model.fit(data[data.columns[timeseriescolumn]])
-    #forecast
-    future_forecast = stepwise_model.predict(n_periods=futureperiod)
-    print(stepwise_model.aic())
-    return future_forecast
+# =============================================================================
+# def forecast_AutoARIMA(data, datecolumn=0, timeseriescolumn=1, futureperiod=90):
+#     '''
+#     '''
+#     stepwise_model = auto_arima(data, start_p=1, start_q=1,
+#                            max_p=7, max_q=7, m=12,
+#                            start_P=0, seasonal=True,
+#                            d=1, trace=True,
+#                            error_action='ignore',  
+#                            suppress_warnings=True, 
+#                            stepwise=True)
+#     #train model
+#     stepwise_model.fit(data[data.columns[timeseriescolumn]])
+#     #forecast
+#     future_forecast = stepwise_model.predict(n_periods=futureperiod)
+#     print(stepwise_model.aic())
+#     return future_forecast
+# =============================================================================
