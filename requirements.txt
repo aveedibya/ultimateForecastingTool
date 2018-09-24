@@ -34,8 +34,6 @@ traitlets==4.3.2
 urllib3==1.23
 Werkzeug==0.14.1
 pystan>=2.14
-numpy>=1.10.0
-pandas>=0.20.1
 lunardate>=0.1.5
 convertdate>=2.1.2
 holidays>=0.9.5
