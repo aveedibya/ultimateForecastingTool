@@ -4,3 +4,9 @@
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
 .pyc
+venv
+*.pyc
+.DS_Store
+.env
+__pycache__
+eb_logs.txt

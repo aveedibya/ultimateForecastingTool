@@ -25,59 +25,11 @@ from statsmodels.tsa.seasonal import seasonal_decompose
 from statsmodels.tsa.arima_model import ARIMA
 import forecast_models
 
-# =============================================================================
-# df = pd.read_csv('C:\\Users\\agarw\\Documents\\transaction_data.csv').dropna()
-# df_final = fcst.fcst_wklyavg(df)
-# 
-# df['Date'] = pd.to_datetime(df['Date'], format='%m/%d/%Y')
-# =============================================================================
-#df = df.set_index(df.columns[0])
-# =============================================================================
-# result = seasonal_decompose(df, model='additive')
-# result_trend = result.trend.dropna().reset_index()
-# result_seasonal = result.seasonal.dropna().reset_index()
-# result_resid = result.resid.dropna().reset_index()
-# #fig = result.plot()
-# #unique_url = plot_mpl(fig)
-# 
-# trace_actuals = go.Scatter(
-#     x = df_final['Date'],
-#     y = df_final['Volume'],
-#     mode = 'lines+markers',
-#     name = 'actuals')
-# 
-# trace_forecast = go.Scatter(
-#     x = df_final[df_final['Forecast']>0]['Date'],
-#     y = df_final[df_final['Forecast']>0]['Forecast'],
-#     mode = 'lines+markers',
-#     name = 'forecast')
-# 
-# trace_trend =  go.Scatter(
-#     x = result_trend[result_trend.columns[0]],
-#     y = result_trend[result_trend.columns[1]],
-#     mode = 'lines',
-#     name = 'trend')
-# 
-# trace_seasonal =  go.Scatter(
-#     x = result_seasonal[result_seasonal.columns[0]],
-#     y = result_seasonal[result_seasonal.columns[1]],
-#     mode = 'lines',
-#     name = 'seasonal')
-# 
-# trace_residual =  go.Scatter(
-#     x = result_resid[result_resid.columns[0]],
-#     y = result_resid[result_resid.columns[1]],
-#     mode = 'lines',
-#     name = 'residual')
-# =============================================================================
-
-# =============================================================================
-# print(result.resid.dropna().index)
-# print(result.resid.dropna()[result.resid.columns[0]].head())
-# 
-# =============================================================================
 app = dash.Dash()
-#app.scripts.config.serve_locally = True
+
+app.title = 'Forecasting Tool'
+
+server = app.server
 
 def dropdown_dict(df):
     date_dict = []
