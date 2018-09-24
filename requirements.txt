@@ -12,6 +12,7 @@ dash-renderer==0.13.1
 dash-table-experiments==0.6.0
 decorator==4.3.0
 enum34==1.1.6
+fbprophet
 flake8==3.5.0
 Flask==1.0
 Flask-Caching==1.4.0
@@ -51,3 +52,11 @@ traitlets==4.3.2
 urllib3==1.22
 Werkzeug==0.14.1
 wrapt==1.10.11
+Cython>=0.22
+pystan>=2.14
+numpy>=1.10.0
+pandas>=0.20.1
+matplotlib>=2.0.0
+lunardate>=0.1.5
+convertdate>=2.1.2
+holidays>=0.9.5

@@ -9,7 +9,6 @@ import pandas as pd
 import numpy as np
 import datetime
 
-#df = pd.read_csv('C:\\Users\\agarw\\Documents\\transaction_data.csv').dropna()
 
 def fcst_wklyavg(df, fcst_range=90, n_week=6, stop_at_futuredates=0, data_period=7):
 
