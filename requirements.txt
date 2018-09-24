@@ -44,3 +44,9 @@ WebOb==1.8.2
 Werkzeug==0.14.1
 zope.deprecation==4.3.0
 zope.interface==4.5.0
+matplotlib>=2.0.0
+lunardate>=0.1.5
+convertdate>=2.1.2
+holidays>=0.9.5
+pystan>=2.14
+fbprophet
