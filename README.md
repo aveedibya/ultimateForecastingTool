@@ -1,4 +1,4 @@
-# [Forecasting Tool, built using Dash](https://ultimateforecastingtool.herokuapp.com/)
+# [Forecasting Tool](https://ultimateforecastingtool.herokuapp.com/)
 
 __Description:__ A web application to generate time-series forecasts on your dataset. 
 
