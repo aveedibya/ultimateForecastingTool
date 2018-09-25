@@ -10,3 +10,5 @@ venv
 .env
 __pycache__
 eb_logs.txt
+.gitignore
+eb_logs
