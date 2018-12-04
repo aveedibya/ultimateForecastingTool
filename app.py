@@ -78,7 +78,7 @@ app.layout = html.Div(children=[
                 html.Div(dcc.Input(id='arima-p', type='number', placeholder='AR(p)='), style={'display': 'inline-block'}),
                 html.Div(dcc.Input(id='arima-d', type='number', placeholder='I(d)='), style={'display': 'inline-block'}),
                 html.Div(dcc.Input(id='arima-q', type='number', placeholder='MA(q)='), style={'display': 'inline-block'}),
-                html.Button('Submit ARIMA Parameters ', id='arima-submit'),
+                html.Button('Submit ARIMA Parameters ', id='arima-submit', className='button-primary'),
                 html.Div(id='output-container-button',
                          children='Enter ARIMA parameters and click Submit to refresh forecast!')], id='arima-inputblock'),
     
@@ -86,7 +86,7 @@ app.layout = html.Div(children=[
         html.Div([
                 html.Div(dcc.Input(id='n_weeks', type='number', placeholder='#Week for averaging = 6'), style={'display': 'inline-block'}),
                 html.Div(dcc.Input(id='period', type='number', placeholder='Period = 7'), style={'display': 'inline-block'}),
-                html.Button('Update Moving Average Forecast ', id='movingavg-submit'),
+                html.Button('Update Moving Average Forecast ', id='movingavg-submit', className='button-primary'),
                 html.Div(id='output-container-button-ma',
                          children='Enter Moving Average parameters and click Submit to refresh forecast!')], id='movingavg-inputblock'),
     
@@ -105,20 +105,32 @@ app.layout = html.Div(children=[
                 children=html.Div(['Drag and Drop or ', html.A('Select Files')
                 ]),
                 style={
-                    'width': '30%', 'height': '60px', 'lineHeight': '60px', 'borderWidth': '0px',
-                    'borderStyle': 'solid','borderRadius': '5px', 'textAlign': 'center', 'margin-top': '20px', 
-                    'backgroundColor': '#ebebe0'
+                    'width': '30%', 'display':'inline-block', 'height': '90px', 'lineHeight': '90px', 'borderWidth': '0px',
+                    'borderStyle': 'solid','borderRadius': '5px', 'textAlign': 'center', 'margin-top': '20px', 'marginRight': '20px', 
+                    'backgroundColor': '#ebebe0', 'verticalAlign': 'middle'
                 },
                 # Allow multiple files to be uploaded
                 multiple=True
             ),
-            html.Div(id='output-data-upload'),
-            html.Div(dte.DataTable(rows=[{}]), style={'display': 'none'})
-        ])
-#        html.Div([dcc.Graph(id='trend_view', figure={'data':[trace_trend], 'layout':{'title':'Time Series Trend Plot'}}, style={'height': 300}),
-#                  dcc.Graph(id='seasonal_view', figure={'data':[trace_seasonal], 'layout':{'title':'Time Series Seasonal Plot'}}, style={'height': 300}),
-#                  dcc.Graph(id='residual_view', figure={'data':[trace_residual], 'layout':{'title':'Time Series Residual Plot'}}, style={'height': 300})], style={'width': '45%'})
-
+    
+    
+        html.Div([html.Label(dcc.Markdown('*__OR__ Select Built-in Sample Data:*')),
+                      html.Div(dcc.Dropdown(id='select-dataset',
+                                            options=[{'label': 'Peyton Manning WikiPage Visits', 'value': 1},
+                                                     {'label': 'Air Passenger Data', 'value': 2}],
+                                            placeholder='Built-in Dataset Not Selected',
+                                            value=''
+                                            ), 
+                            style={}
+                            )], style={'backgroundColor': '#ebebe0', 
+                                                 'margin-top': '20px', 'padding': '10', 'borderRadius': '5px', 
+                                                 'display': 'inline-block', 'width': '30%', 'verticalAlign': 'middle'})
+        
+        ]),
+    
+        html.Div(id='output-data-upload'),
+        html.Div(dte.DataTable(rows=[{}]), style={'display': 'none'})
+    
         ]
         #, className='container' #If you want to show everything in a shrinked smaller central section
         , style={'width': ''})
@@ -329,14 +341,21 @@ def update_daily_viewfilters(selected_month, dataselected, json_intermediate_dat
 @app.callback(dash.dependencies.Output('upload-data-df', 'children'),
               [dash.dependencies.Input('upload-data', 'contents'),
                dash.dependencies.Input('upload-data', 'filename'),
-               dash.dependencies.Input('upload-data', 'last_modified')])
-def update_output(list_of_contents, list_of_names, list_of_dates):
+               dash.dependencies.Input('upload-data', 'last_modified'),
+               dash.dependencies.Input('select-dataset', 'value')])
+def update_output(list_of_contents, list_of_names, list_of_dates, dataset_selected):
     if list_of_contents is not None:
          children = [
              parse_contents(c, n, d)[1] for c, n, d in
              zip(list_of_contents, list_of_names, list_of_dates)]
          print(children[0])
          return children[0]
+    elif dataset_selected in [1,2]:
+        if dataset_selected == 1:
+            return pd.read_csv('sample_datasets/example_wp_log_peyton_manning.csv').dropna().to_json(date_format='iso', orient='split')
+        elif dataset_selected == 2:
+            return pd.read_csv('sample_datasets/example_air_passengers.csv').dropna().to_json(date_format='iso', orient='split')
+         
 
 #-------------------------------------------------------- 
 #Data Table Output
