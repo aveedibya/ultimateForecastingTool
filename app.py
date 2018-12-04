@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Aug  9 10:26:09 2018
-
-@author: agarw
+@author: Aveedibya Dey
 """
 import dash_table_experiments as dte
 from parse_contents import parse_contents
