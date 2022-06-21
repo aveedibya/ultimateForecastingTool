@@ -20,7 +20,7 @@ jsonschema==2.6.0
 jupyter-core==4.4.0
 MarkupSafe==1.0
 nbformat==4.4.0
-numpy==1.15.2
+numpy==1.22.0
 pandas==0.23.4
 PasteDeploy==1.5.2
 patsy==0.5.0
